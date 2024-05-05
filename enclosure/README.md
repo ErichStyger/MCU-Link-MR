@@ -1,3 +1,3 @@
-# MCU-Link
+# Enclosure
+Enclosure files (lasercut) for the debug probe.
 
-Project for the NXP MCU-Link Debug Probe with KiCAD, as a debug drone for mobile robotics platforms.
