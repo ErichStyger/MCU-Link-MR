@@ -9,15 +9,16 @@ Renderings below show the v0.2 version.
 ![bottom PCB](images/enclosure_v0.1.png)
 
 ## Versions
-
-### v0.1
-- Initial version
-- Issue with UART on debug headers (works fine on UART header) (fixed in v0.2)
+The gerber files for the different releases can be found in KiCAD project directory.
 
 ### v0.2
 - Improved footprints and silkscreen
 - Push button instead of jumper for DFU mode
 - fixed UART connection on debug headers
+
+### v0.1
+- Initial version
+- Issue with UART on debug headers (works fine on UART header) (fixed in v0.2)
 
 ## Links
 - Base hardware project used: https://mcuoneclipse.com/2024/02/06/versatile-oshw-mini-mcu-link-debug-probe-external-on-board-or-embedded/, GitHub: https://github.com/ErichStyger/McuLink-Mini
