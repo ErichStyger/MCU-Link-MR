@@ -1,6 +1,7 @@
 # MCU-Link-MR
 
 Project for the NXP MCU-Link Debug Probe with KiCAD, as a debug drone for mobile robotics platforms.
+See https://mcuoneclipse.com/2024/05/05/cmsis-dap-debug-probe-for-robots-and-pixhawk-with-kicad/
 
 ## Features
 Renderings below show the v0.2 version.
@@ -21,6 +22,7 @@ The gerber files for the different releases can be found in KiCAD project direct
 - Issue with UART on debug headers (works fine on UART header) (fixed in v0.2)
 
 ## Links
+- Article for the project: https://mcuoneclipse.com/2024/05/05/cmsis-dap-debug-probe-for-robots-and-pixhawk-with-kicad/
 - Base hardware project used: https://mcuoneclipse.com/2024/02/06/versatile-oshw-mini-mcu-link-debug-probe-external-on-board-or-embedded/, GitHub: https://github.com/ErichStyger/McuLink-Mini
 - NXP MCU-Link: https://www.nxp.com/design/design-center/software/development-software/mcuxpresso-software-and-tools-/mcu-link-debug-probe:MCU-LINK
 - NXP LinkServer: https://www.nxp.com/design/design-center/software/development-software/mcuxpresso-software-and-tools-/linkserver-for-microcontrollers:LINKERSERVER
