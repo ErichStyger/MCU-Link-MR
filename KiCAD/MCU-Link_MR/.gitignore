@@ -16,7 +16,7 @@ _saved_*
 
 # BOM plugin output
 *.csv.tmp
-*.csv
+#*.csv
 *.xml
 
 # Gerbers
