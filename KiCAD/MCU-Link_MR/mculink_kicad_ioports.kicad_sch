@@ -4048,6 +4048,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey#" ""
+			(at 41.91 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "771-LPC55S69JBD64K"
+			(at 41.91 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "197ccde3-0812-41ac-9b2d-4e460b60aeb9")
 		)
@@ -4313,6 +4331,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey#" ""
+			(at 41.91 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "771-LPC55S69JBD64K"
+			(at 41.91 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "fb34399d-8607-404b-ae13-2d3bc553bf93")
 		)
@@ -4534,7 +4570,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "0R 5% 100mW"
 			(at 77.47 47.8536 90)
 			(effects
 				(font
@@ -4570,6 +4606,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 77.47 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 77.47 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0603AJ/-000EAS"
 			(at 77.47 50.8 0)
 			(effects
 				(font
@@ -4722,6 +4776,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey#" ""
+			(at 139.7 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "981eccfb-0494-4221-ba9e-409568bcd195")
 		)
@@ -4793,6 +4856,15 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 181.61 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
 			(at 181.61 130.81 0)
 			(effects
 				(font
@@ -5009,6 +5081,24 @@
 				(hide yes)
 			)
 		)
+		(property "mouser#" "78-VLMS1300-GS08"
+			(at 232.41 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 232.41 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "64f25097-75db-4932-a726-c2d92ee5a0f3")
 		)
@@ -5042,7 +5132,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "2k 5% 100mW"
 			(at 234.188 130.683 0)
 			(effects
 				(font
@@ -5079,6 +5169,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 232.41 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "71-TNPW06032K00FHEA"
+			(at 232.41 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
 			(at 232.41 129.54 0)
 			(effects
 				(font
@@ -5220,6 +5328,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 139.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "611-KMR221G-LFS "
+			(at 139.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
 			(at 139.7 92.71 0)
 			(effects
 				(font
@@ -5565,6 +5691,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 147.32 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "611-KMR221G-LFS "
+			(at 147.32 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
 			(at 147.32 57.15 0)
 			(effects
 				(font

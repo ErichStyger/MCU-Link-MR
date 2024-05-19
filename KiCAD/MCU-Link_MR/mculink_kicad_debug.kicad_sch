@@ -6028,6 +6028,16 @@
 		)
 		(uuid "1214337e-e969-406c-99bb-0dff946c43f2")
 	)
+	(text "PixHawk Mini"
+		(exclude_from_sim no)
+		(at 151.384 100.838 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "35557981-b83f-48a9-9b7c-3eb8136d4abf")
+	)
 	(text "Target Cortex Debug (SWD/JTAG)"
 		(exclude_from_sim no)
 		(at 212.344 19.558 0)
@@ -6078,6 +6088,16 @@
 			)
 		)
 		(uuid "9b01db58-5db0-41a7-b6d3-79e23e274e9b")
+	)
+	(text "PixHawk Full"
+		(exclude_from_sim no)
+		(at 149.352 68.834 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b1da48f4-a214-4699-a0ec-dd5891790e98")
 	)
 	(text "0.8-0.45mA leakage"
 		(exclude_from_sim no)
@@ -6934,7 +6954,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SN74LVC1T45GW"
+		(property "Value" "74LVC1T45GW"
 			(at 53.34 92.71 0)
 			(effects
 				(font
@@ -6971,6 +6991,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 52.07 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "771-74LVC1T45GWQ100H"
+			(at 52.07 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
 			(at 52.07 81.28 0)
 			(effects
 				(font
@@ -7067,6 +7105,24 @@
 				(hide yes)
 			)
 		)
+		(property "mouser#" "771-74LVC2T45DC125"
+			(at 52.07 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 52.07 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4eb08ef4-7c03-4739-9007-f3fb5478ab64")
 		)
@@ -7118,7 +7174,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x05_Odd_Even"
+		(property "Value" "SWD 2x05 1.27mm"
 			(at 245.11 24.7396 0)
 			(effects
 				(font
@@ -7154,6 +7210,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 246.38 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 246.38 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "200-SHF10501LDSM"
 			(at 246.38 33.02 0)
 			(effects
 				(font
@@ -7219,7 +7293,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PESD5V0L5UV"
+		(property "Value" "PESD5V0L5UV,115"
 			(at 212.09 55.88 90)
 			(effects
 				(font
@@ -7256,6 +7330,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 209.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "771-PESD5V0L5UV115"
+			(at 209.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
 			(at 209.55 50.8 0)
 			(effects
 				(font
@@ -7310,7 +7402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PESD5V0L5UV"
+		(property "Value" "PESD5V0L5UV,115"
 			(at 212.217 52.5272 0)
 			(effects
 				(font
@@ -7348,6 +7440,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 213.36 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "771-PESD5V0L5UV115"
+			(at 213.36 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
 			(at 213.36 50.8 0)
 			(effects
 				(font
@@ -7402,7 +7512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PESD5V0L5UV"
+		(property "Value" "PESD5V0L5UV,115"
 			(at 218.8972 50.9778 90)
 			(effects
 				(font
@@ -7440,6 +7550,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 217.17 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "771-PESD5V0L5UV115"
+			(at 217.17 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
 			(at 217.17 50.8 0)
 			(effects
 				(font
@@ -7494,7 +7622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PESD5V0L5UV"
+		(property "Value" "PESD5V0L5UV,115"
 			(at 222.7072 50.9778 90)
 			(effects
 				(font
@@ -7532,6 +7660,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 220.98 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "771-PESD5V0L5UV115"
+			(at 220.98 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
 			(at 220.98 50.8 0)
 			(effects
 				(font
@@ -7586,7 +7732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PESD5V0L5UV"
+		(property "Value" "PESD5V0L5UV,115"
 			(at 226.5172 50.9778 90)
 			(effects
 				(font
@@ -7624,6 +7770,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 224.79 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "771-PESD5V0L5UV115"
+			(at 224.79 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
 			(at 224.79 50.8 0)
 			(effects
 				(font
@@ -7677,7 +7841,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PESD5V0L5UV"
+		(property "Value" "PESD5V0L5UV,115"
 			(at 259.08 55.88 90)
 			(effects
 				(font
@@ -7714,6 +7878,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 256.54 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "771-PESD5V0L5UV115"
+			(at 256.54 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
 			(at 256.54 50.8 0)
 			(effects
 				(font
@@ -7768,7 +7950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PESD5V0L5UV"
+		(property "Value" "PESD5V0L5UV,115"
 			(at 259.207 52.5272 0)
 			(effects
 				(font
@@ -7806,6 +7988,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 260.35 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "771-PESD5V0L5UV115"
+			(at 260.35 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
 			(at 260.35 50.8 0)
 			(effects
 				(font
@@ -7860,7 +8060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PESD5V0L5UV"
+		(property "Value" "PESD5V0L5UV,115"
 			(at 265.8872 50.9778 90)
 			(effects
 				(font
@@ -7898,6 +8098,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 264.16 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "771-PESD5V0L5UV115"
+			(at 264.16 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
 			(at 264.16 50.8 0)
 			(effects
 				(font
@@ -7952,7 +8170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PESD5V0L5UV"
+		(property "Value" "PESD5V0L5UV,115"
 			(at 269.6972 50.9778 90)
 			(effects
 				(font
@@ -7990,6 +8208,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 267.97 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "771-PESD5V0L5UV115"
+			(at 267.97 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
 			(at 267.97 50.8 0)
 			(effects
 				(font
@@ -8044,7 +8280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PESD5V0L5UV"
+		(property "Value" "PESD5V0L5UV,115"
 			(at 273.5072 50.9778 90)
 			(effects
 				(font
@@ -8082,6 +8318,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 271.78 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "771-PESD5V0L5UV115"
+			(at 271.78 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
 			(at 271.78 50.8 0)
 			(effects
 				(font
@@ -8264,7 +8518,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "10R 5% 100mW"
 			(at 69.85 33.02 90)
 			(effects
 				(font
@@ -8308,6 +8562,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey#" ""
+			(at 69.85 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0603-JW-100ELF"
+			(at 69.85 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18349234-9400-4fab-9d2b-ab687f462373")
 		)
@@ -8340,7 +8612,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "10R 5% 100mW"
 			(at 81.28 38.1 90)
 			(effects
 				(font
@@ -8384,6 +8656,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey#" ""
+			(at 81.28 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0603-JW-100ELF"
+			(at 81.28 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "93eb8d8b-4ebe-4415-b59d-df2b4f73d19e")
 		)
@@ -8416,7 +8706,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k 5% 100mW"
 			(at 67.31 72.39 90)
 			(effects
 				(font
@@ -8460,6 +8750,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey#" ""
+			(at 64.77 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0603-JW-104ELF"
+			(at 64.77 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "709e5997-2682-45ae-a870-95a062f58ef6")
 		)
@@ -8492,7 +8800,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "2k 5% 100mW"
 			(at 41.91 91.44 90)
 			(effects
 				(font
@@ -8528,6 +8836,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 39.37 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "71-TNPW06032K00FHEA"
+			(at 39.37 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
 			(at 39.37 91.44 0)
 			(effects
 				(font
@@ -8698,7 +9024,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF 6.3V"
 			(at 44.45 63.2206 90)
 			(effects
 				(font
@@ -8734,6 +9060,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 44.45 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 44.45 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "80-C0603C104K9R"
 			(at 44.45 67.31 0)
 			(effects
 				(font
@@ -8839,7 +9183,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF 6.3V"
 			(at 60.96 60.6806 90)
 			(effects
 				(font
@@ -8875,6 +9219,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 60.96 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 60.96 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "80-C0603C104K9R"
 			(at 60.96 64.77 0)
 			(effects
 				(font
@@ -9046,7 +9408,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SN74LVC1T45GW"
+		(property "Value" "74LVC1T45GW"
 			(at 53.34 130.81 0)
 			(effects
 				(font
@@ -9083,6 +9445,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 52.07 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "771-74LVC1T45GWQ100H"
+			(at 52.07 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
 			(at 52.07 119.38 0)
 			(effects
 				(font
@@ -9135,7 +9515,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k 5% 100mW"
 			(at 67.31 110.49 90)
 			(effects
 				(font
@@ -9171,6 +9551,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 64.77 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 64.77 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0603-JW-104ELF"
 			(at 64.77 110.49 0)
 			(effects
 				(font
@@ -9341,7 +9739,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF 6.3V"
 			(at 44.45 101.3206 90)
 			(effects
 				(font
@@ -9377,6 +9775,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 44.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 44.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "80-C0603C104K9R"
 			(at 44.45 105.41 0)
 			(effects
 				(font
@@ -9482,7 +9898,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF 6.3V"
 			(at 60.96 98.7806 90)
 			(effects
 				(font
@@ -9518,6 +9934,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 60.96 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 60.96 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "80-C0603C104K9R"
 			(at 60.96 102.87 0)
 			(effects
 				(font
@@ -9689,7 +10123,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SN74LVC1T45GW"
+		(property "Value" "74LVC1T45GW"
 			(at 53.34 168.91 0)
 			(effects
 				(font
@@ -9726,6 +10160,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 52.07 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "771-74LVC1T45GWQ100H"
+			(at 52.07 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
 			(at 52.07 157.48 0)
 			(effects
 				(font
@@ -9778,7 +10230,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k 5% 100mW"
 			(at 67.31 148.59 90)
 			(effects
 				(font
@@ -9822,6 +10274,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey#" ""
+			(at 64.77 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0603-JW-104ELF"
+			(at 64.77 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1ad9d552-c654-4c38-9c41-5eee4afa3412")
 		)
@@ -9854,7 +10324,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "2k 5% 100mW"
 			(at 41.91 167.64 90)
 			(effects
 				(font
@@ -9890,6 +10360,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 39.37 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "71-TNPW06032K00FHEA"
+			(at 39.37 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
 			(at 39.37 167.64 0)
 			(effects
 				(font
@@ -10060,7 +10548,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF 6.3V"
 			(at 44.45 139.4206 90)
 			(effects
 				(font
@@ -10096,6 +10584,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 44.45 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 44.45 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "80-C0603C104K9R"
 			(at 44.45 143.51 0)
 			(effects
 				(font
@@ -10201,7 +10707,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF 6.3V"
 			(at 60.96 136.8806 90)
 			(effects
 				(font
@@ -10237,6 +10743,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 60.96 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 60.96 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "80-C0603C104K9R"
 			(at 60.96 140.97 0)
 			(effects
 				(font
@@ -10407,7 +10931,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "10R 5% 100mW"
 			(at 68.58 83.82 90)
 			(effects
 				(font
@@ -10451,6 +10975,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey#" ""
+			(at 68.58 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0603-JW-100ELF"
+			(at 68.58 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ec8286f4-3892-4b7b-afc8-2448894cf82b")
 		)
@@ -10483,7 +11025,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "10R 5% 100mW"
 			(at 68.58 160.02 90)
 			(effects
 				(font
@@ -10519,6 +11061,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 68.58 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 68.58 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0603-JW-100ELF"
 			(at 68.58 157.48 0)
 			(effects
 				(font
@@ -10625,7 +11185,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF 6.3V"
 			(at 66.421 25.273 0)
 			(effects
 				(font
@@ -10670,6 +11230,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey#" ""
+			(at 63.5 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "80-C0603C104K9R"
+			(at 63.5 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dcbe1b7b-7fb2-4583-95cd-0a364594fe15")
 		)
@@ -10703,7 +11281,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF 6.3V"
 			(at 77.851 25.273 0)
 			(effects
 				(font
@@ -10740,6 +11318,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 74.93 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "581-06036D106MAT2A"
+			(at 74.93 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
 			(at 74.93 24.13 0)
 			(effects
 				(font
@@ -10912,7 +11508,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF 6.3V"
 			(at 30.099 25.273 0)
 			(effects
 				(font
@@ -10949,6 +11545,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 33.02 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 33.02 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "80-C0603C104K9R"
 			(at 33.02 24.13 0)
 			(effects
 				(font
@@ -11119,7 +11733,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "2k 5% 100mW"
 			(at 35.56 186.69 90)
 			(effects
 				(font
@@ -11163,6 +11777,24 @@
 				(hide yes)
 			)
 		)
+		(property "mouser#" "71-TNPW06032K00FHEA"
+			(at 35.56 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 35.56 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "61e3ddc4-f115-4419-b49e-c53310a43582")
 		)
@@ -11195,7 +11827,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "2k 5% 100mW"
 			(at 86.36 184.15 90)
 			(effects
 				(font
@@ -11239,6 +11871,24 @@
 				(hide yes)
 			)
 		)
+		(property "mouser#" "71-TNPW06032K00FHEA"
+			(at 88.9 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 88.9 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fbad1c11-396c-4777-85c5-0c44c7288f74")
 		)
@@ -11271,7 +11921,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "2k 5% 100mW"
 			(at 86.36 173.99 90)
 			(effects
 				(font
@@ -11315,6 +11965,24 @@
 				(hide yes)
 			)
 		)
+		(property "mouser#" "71-TNPW06032K00FHEA"
+			(at 88.9 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 88.9 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90c7f35e-23d0-480f-88bb-9889049c9350")
 		)
@@ -11348,7 +12016,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF 6.3V"
 			(at 99.441 185.293 0)
 			(effects
 				(font
@@ -11385,6 +12053,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 96.52 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 96.52 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "80-C0603C104K9R"
 			(at 96.52 184.15 0)
 			(effects
 				(font
@@ -11556,7 +12242,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP6001-OT"
+		(property "Value" "MCP6001T-I/OT"
 			(at 231.14 135.89 0)
 			(effects
 				(font
@@ -11593,6 +12279,33 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 237.49 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 237.49 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "MCP6001T-I/OT"
+			(at 237.49 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "579-MCP6001T-I/OT "
 			(at 237.49 139.7 0)
 			(effects
 				(font
@@ -11642,7 +12355,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "10R 5% 100mW"
 			(at 220.98 142.24 90)
 			(effects
 				(font
@@ -11678,6 +12391,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 220.98 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 220.98 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0603-JW-100ELF"
 			(at 220.98 139.7 0)
 			(effects
 				(font
@@ -11783,7 +12514,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "100R 5% 100mW"
 			(at 252.73 148.59 90)
 			(effects
 				(font
@@ -11827,6 +12558,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey#" ""
+			(at 252.73 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0603-JW-101ELF"
+			(at 252.73 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "498c4627-85e9-4b27-aa07-d4f7a421ec2b")
 		)
@@ -11859,7 +12608,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "100R 5% 100mW"
 			(at 252.73 139.7 90)
 			(effects
 				(font
@@ -11903,6 +12652,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey#" ""
+			(at 252.73 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0603-JW-101ELF"
+			(at 252.73 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1c9d42c5-e0b8-4348-9bf5-5785a0dc49a1")
 		)
@@ -11936,7 +12703,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF 6.3V"
 			(at 265.811 142.113 0)
 			(effects
 				(font
@@ -11981,6 +12748,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey#" ""
+			(at 262.89 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "80-C0603C104K9R"
+			(at 262.89 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ab9e4a18-ad0d-41e7-9152-b511b045d195")
 		)
@@ -12013,7 +12798,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "33k 5% 100mW"
 			(at 273.05 139.7 90)
 			(effects
 				(font
@@ -12049,6 +12834,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 273.05 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 273.05 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "660-RK73B1JTTDD333J"
 			(at 273.05 137.16 0)
 			(effects
 				(font
@@ -12220,7 +13023,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF 6.3V"
 			(at 246.761 124.333 0)
 			(effects
 				(font
@@ -12265,6 +13068,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey#" ""
+			(at 243.84 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "80-C0603C104K9R"
+			(at 243.84 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9da05178-b477-4741-8346-c884ae4e590f")
 		)
@@ -12298,7 +13119,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF 6.3V"
 			(at 256.921 124.333 0)
 			(effects
 				(font
@@ -12343,6 +13164,24 @@
 				(hide yes)
 			)
 		)
+		(property "mouser#" "581-06036D106MAT2A"
+			(at 254 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 254 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "37e30c43-c045-47a4-b0f8-0b3d025d48d2")
 		)
@@ -12375,7 +13214,7 @@
 				)
 			)
 		)
-		(property "Value" "MI0603J601R-10"
+		(property "Value" "MPZ1608S331ATD25 "
 			(at 231.14 116.8654 90)
 			(effects
 				(font
@@ -12411,6 +13250,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 231.14 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "810-MPZ1608S331ATD25 "
+			(at 231.14 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
 			(at 231.14 119.38 0)
 			(effects
 				(font
@@ -12647,7 +13504,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Pixhawk Debug Full (1x10 JST-SH)"
+		(property "Value" "JST-SH SM10B-SRSS"
 			(at 146.558 55.372 0)
 			(effects
 				(font
@@ -12684,6 +13541,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 137.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "SM10B-SRSS-TB"
+			(at 137.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "455-SM10B-SRSS-TBCT-ND"
 			(at 137.16 53.34 0)
 			(effects
 				(font
@@ -12847,6 +13722,15 @@
 			)
 		)
 		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(at 207.01 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
 			(at 207.01 134.62 0)
 			(effects
 				(font
@@ -13022,7 +13906,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DCD-LZ_Debug (1x07 JST-GHS)"
+		(property "Value" "JST-GH SM07B-GHS"
 			(at 146.05 123.8249 0)
 			(effects
 				(font
@@ -13059,6 +13943,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 138.43 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "SM07B-GHS-TB"
+			(at 138.43 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "455-1569-1-ND"
 			(at 138.43 123.19 0)
 			(effects
 				(font
@@ -13379,7 +14281,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Pixhawk_Debug_Mini (1x06 JST-SH)"
+		(property "Value" "JST-SH BM06B-SRSS"
 			(at 146.05 92.0749 0)
 			(effects
 				(font
@@ -13416,6 +14318,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 138.43 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "BM06B-SRSS-TB"
+			(at 138.43 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "455-BM06B-GHS-TBTCT-ND"
 			(at 138.43 91.44 0)
 			(effects
 				(font
@@ -13572,6 +14492,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 214.63 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "611-KMR221G-LFS "
+			(at 214.63 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
 			(at 214.63 76.2 0)
 			(effects
 				(font

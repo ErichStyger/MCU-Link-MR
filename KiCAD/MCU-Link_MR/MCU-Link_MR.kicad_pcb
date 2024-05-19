@@ -8345,7 +8345,7 @@
 			)
 		)
 		(property ki_fp_filters "SOT?666*")
-		(path "/00000000-0000-0000-0000-0000603cff19/00000000-0000-0000-0000-0000604bbb27")
+		(path "/00000000-0000-0000-0000-0000603cff19/00000000-0000-0000-0000-0000604bbb21")
 		(sheetname "Debug interface")
 		(sheetfile "mculink_kicad_debug.kicad_sch")
 		(attr smd)
@@ -23306,7 +23306,7 @@
 		(path "/7bde9f13-4da7-486c-afb4-a840f655fc79")
 		(sheetname "Root")
 		(sheetfile "MCU-Link_MR.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1.55 0)
@@ -23409,7 +23409,7 @@
 		(path "/927d800a-c850-48b5-8b5b-68687e952e56")
 		(sheetname "Root")
 		(sheetfile "MCU-Link_MR.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1.55 0)
@@ -24478,7 +24478,7 @@
 		(path "/771258d2-5f07-4520-81d4-6fb3fe4b6b86")
 		(sheetname "Root")
 		(sheetfile "MCU-Link_MR.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1.55 0)
@@ -26478,7 +26478,7 @@
 		(path "/00000000-0000-0000-0000-0000603cfdf2/00000000-0000-0000-0000-00006042f8ad")
 		(sheetname "LPC55S69 IO Ports")
 		(sheetfile "mculink_kicad_ioports.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -1)
 			(end 0.7 -1)
@@ -26762,7 +26762,7 @@
 		(path "/00000000-0000-0000-0000-0000603cfdf2/00000000-0000-0000-0000-00006043293a")
 		(sheetname "LPC55S69 IO Ports")
 		(sheetfile "mculink_kicad_ioports.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.7 1)
 			(end -0.7 1)
@@ -28474,7 +28474,7 @@
 		(path "/00000000-0000-0000-0000-0000603cff19/14d9ca14-8df0-4519-a7b2-a3bef79aefc6")
 		(sheetname "Debug interface")
 		(sheetfile "mculink_kicad_debug.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.9 -1.5)
 			(end -1.5 -1.5)

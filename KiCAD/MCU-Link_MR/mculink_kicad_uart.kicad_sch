@@ -2363,7 +2363,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SN74LVC1T45GW"
+		(property "Value" "74LVC1T45GW"
 			(at 77.47 85.09 0)
 			(effects
 				(font
@@ -2400,6 +2400,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 76.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "771-74LVC1T45GWQ100H"
+			(at 76.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
 			(at 76.2 73.66 0)
 			(effects
 				(font
@@ -2452,7 +2470,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k 5% 100mW"
 			(at 91.44 64.77 90)
 			(effects
 				(font
@@ -2488,6 +2506,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 88.9 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 88.9 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0603-JW-104ELF"
 			(at 88.9 64.77 0)
 			(effects
 				(font
@@ -2658,7 +2694,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF 6.3V"
 			(at 68.58 55.6006 90)
 			(effects
 				(font
@@ -2694,6 +2730,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 68.58 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 68.58 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "80-C0603C104K9R"
 			(at 68.58 59.69 0)
 			(effects
 				(font
@@ -2799,7 +2853,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF 6.3V"
 			(at 85.09 53.0606 90)
 			(effects
 				(font
@@ -2835,6 +2889,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 85.09 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 85.09 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "80-C0603C104K9R"
 			(at 85.09 57.15 0)
 			(effects
 				(font
@@ -3005,7 +3077,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "10R 5% 100mW"
 			(at 92.71 76.2 90)
 			(effects
 				(font
@@ -3049,6 +3121,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey#" ""
+			(at 92.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0603-JW-100ELF"
+			(at 92.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "025379fa-f801-46e3-b03e-3edda1a132ec")
 		)
@@ -3082,7 +3172,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SN74LVC1T45GW"
+		(property "Value" "74LVC1T45GW"
 			(at 77.47 123.19 0)
 			(effects
 				(font
@@ -3119,6 +3209,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 76.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "771-74LVC1T45GWQ100H"
+			(at 76.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
 			(at 76.2 111.76 0)
 			(effects
 				(font
@@ -3236,7 +3344,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF 6.3V"
 			(at 68.58 93.7006 90)
 			(effects
 				(font
@@ -3272,6 +3380,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 68.58 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 68.58 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "80-C0603C104K9R"
 			(at 68.58 97.79 0)
 			(effects
 				(font
@@ -3377,7 +3503,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF 6.3V"
 			(at 85.09 91.1606 90)
 			(effects
 				(font
@@ -3413,6 +3539,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 85.09 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 85.09 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "80-C0603C104K9R"
 			(at 85.09 95.25 0)
 			(effects
 				(font
@@ -3583,7 +3727,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "10R 5% 100mW"
 			(at 92.71 114.3 90)
 			(effects
 				(font
@@ -3619,6 +3763,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 92.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 92.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0603-JW-100ELF"
 			(at 92.71 111.76 0)
 			(effects
 				(font
@@ -3790,7 +3952,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PESD5V0L5UV"
+		(property "Value" "PESD5V0L5UV,115"
 			(at 128.27 97.79 90)
 			(effects
 				(font
@@ -3827,6 +3989,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 125.73 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "771-PESD5V0L5UV115"
+			(at 125.73 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
 			(at 125.73 92.71 0)
 			(effects
 				(font
@@ -3881,7 +4061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PESD5V0L5UV"
+		(property "Value" "PESD5V0L5UV,115"
 			(at 128.397 94.4372 0)
 			(effects
 				(font
@@ -3919,6 +4099,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 129.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "771-PESD5V0L5UV115"
+			(at 129.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
 			(at 129.54 92.71 0)
 			(effects
 				(font
@@ -3973,7 +4171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PESD5V0L5UV"
+		(property "Value" "PESD5V0L5UV,115"
 			(at 135.0772 92.8878 90)
 			(effects
 				(font
@@ -4011,6 +4209,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 133.35 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "771-PESD5V0L5UV115"
+			(at 133.35 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
 			(at 133.35 92.71 0)
 			(effects
 				(font
@@ -4065,7 +4281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PESD5V0L5UV"
+		(property "Value" "PESD5V0L5UV,115"
 			(at 138.8872 92.8878 90)
 			(effects
 				(font
@@ -4103,6 +4319,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 137.16 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "771-PESD5V0L5UV115"
+			(at 137.16 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
 			(at 137.16 92.71 0)
 			(effects
 				(font
@@ -4157,7 +4391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PESD5V0L5UV"
+		(property "Value" "PESD5V0L5UV,115"
 			(at 142.6972 92.8878 90)
 			(effects
 				(font
@@ -4195,6 +4429,24 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 140.97 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "771-PESD5V0L5UV115"
+			(at 140.97 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
 			(at 140.97 92.71 0)
 			(effects
 				(font
@@ -4314,7 +4566,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "JST-GH_BM06B"
+		(property "Value" "JST-GH BM06B-GHS"
 			(at 158.75 79.0955 0)
 			(effects
 				(font
@@ -4351,6 +4603,24 @@
 			)
 		)
 		(property "distrelec#" "304-09-562"
+			(at 156.21 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "BM06B-GHS-TBT"
+			(at 156.21 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "455-BM06B-GHS-TBTCT-ND"
 			(at 156.21 76.2 0)
 			(effects
 				(font

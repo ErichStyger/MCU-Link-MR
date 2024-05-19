@@ -947,6 +947,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey#" ""
+			(at 189.23 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "10c2e2b4-b395-420e-9055-cdf7a9a0d499")
 		)
@@ -1014,6 +1023,15 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 210.82 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
 			(at 210.82 102.87 0)
 			(effects
 				(font
@@ -1097,6 +1115,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey#" ""
+			(at 232.41 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0eb37054-cfc7-4ea1-8c03-74bf4fc74e94")
 		)
@@ -1164,6 +1191,15 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 254 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
 			(at 254 102.87 0)
 			(effects
 				(font
@@ -1508,6 +1544,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey#" ""
+			(at 187.96 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "MCU-Link_MR"
 				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527"
@@ -1573,6 +1618,15 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 203.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
 			(at 203.2 88.9 0)
 			(effects
 				(font
@@ -1653,6 +1707,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey#" ""
+			(at 189.23 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "MCU-Link_MR"
 				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527"
@@ -1718,6 +1781,15 @@
 			)
 		)
 		(property "distrelec#" ""
+			(at 218.44 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
 			(at 218.44 88.9 0)
 			(effects
 				(font

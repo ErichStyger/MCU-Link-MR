@@ -826,7 +826,7 @@
       "plot": "v0.2",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../../../../../../tmp/MCU-Link_MR.step",
+      "step": "../../../../../../../tmp/MCU-Link_MR.step",
       "svg": "c:/tmp/board",
       "vrml": ""
     },
@@ -978,7 +978,7 @@
           "group_by": false,
           "label": "mouser#",
           "name": "mouser#",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
