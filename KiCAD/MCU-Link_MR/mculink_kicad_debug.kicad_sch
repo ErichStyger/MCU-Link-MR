@@ -6121,7 +6121,7 @@
 		)
 		(uuid "e4c92ef7-4694-4e52-abe4-b8f2627cca1a")
 	)
-	(text "Debug Interface"
+	(text "Debug & UART Interface"
 		(exclude_from_sim no)
 		(at 159.512 17.78 0)
 		(effects

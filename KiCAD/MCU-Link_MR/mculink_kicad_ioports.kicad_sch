@@ -2567,10 +2567,6 @@
 		(uuid "0b1eb4e4-8034-4d0b-bdbc-f917dc45f5c8")
 	)
 	(no_connect
-		(at 44.45 132.08)
-		(uuid "0b2d2bd0-4324-41ab-b4ab-d09bafa27909")
-	)
-	(no_connect
 		(at 44.45 81.28)
 		(uuid "1342f36d-a91a-4e23-85b2-b76a90dc18eb")
 	)
@@ -2615,10 +2611,6 @@
 		(uuid "b9ca955b-6e68-488d-aa8b-0c2c245ec613")
 	)
 	(no_connect
-		(at 44.45 86.36)
-		(uuid "d6fde787-8552-4291-851f-f41a9370f43e")
-	)
-	(no_connect
 		(at 44.45 48.26)
 		(uuid "d8ab16f7-f92c-4f5c-8c51-a8199fd54ea5")
 	)
@@ -2653,6 +2645,16 @@
 			(type default)
 		)
 		(uuid "11d53d5f-0cea-46b0-b96f-6db9df7d8a74")
+	)
+	(wire
+		(pts
+			(xy 44.45 86.36) (xy 50.8 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19026a17-9111-40a5-ac0b-7f64a4e76da4")
 	)
 	(wire
 		(pts
@@ -2723,6 +2725,16 @@
 			(type default)
 		)
 		(uuid "501ecc85-392e-4d29-bb46-d037b2d54250")
+	)
+	(wire
+		(pts
+			(xy 44.45 132.08) (xy 48.26 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fd68c50-4ef2-414c-a07d-40f0370eaf5d")
 	)
 	(wire
 		(pts
@@ -3512,6 +3524,16 @@
 		)
 		(uuid "3cb139b1-41d5-46a0-87e5-2c8a1679b95e")
 	)
+	(text "FC0 is UART connection to \nthe different target ports."
+		(exclude_from_sim no)
+		(at 87.884 90.424 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "51e8769e-aab1-4266-837d-43c1bc01daf3")
+	)
 	(text "Feature set supported"
 		(exclude_from_sim no)
 		(at 161.29 114.3 0)
@@ -3767,6 +3789,26 @@
 			)
 		)
 	)
+	(global_label "FC0_TARGET_RTS"
+		(shape output)
+		(at 48.26 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b367c49-86ad-497a-ba44-fbe74290cb36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.26 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PIO0_5-ISP_EN-LED1_CTRL"
 		(shape bidirectional)
 		(at 158.75 52.07 0)
@@ -3939,6 +3981,26 @@
 		(uuid "d4aaa8b1-4697-420f-81d6-6fd1f3f960e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 50.8 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FC0_TARGET_CTS"
+		(shape input)
+		(at 50.8 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc8b2974-6696-44c6-bbcd-67ea868b4849")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.8 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
