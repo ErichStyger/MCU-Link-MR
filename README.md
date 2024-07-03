@@ -20,6 +20,9 @@ PCB of the v0.2:
 ## Versions
 The gerber files for the different releases can be found in KiCAD project directory.
 
+### v0.3 (experimental)
+- Added RTS/CTS signals with level shifters for J11/NavQPlus connector
+
 ### v0.2
 - Improved footprints and silkscreen
 - Push button instead of jumper for DFU mode
@@ -28,6 +31,20 @@ The gerber files for the different releases can be found in KiCAD project direct
 ### v0.1
 - Initial version
 - Issue with UART on debug headers (works fine on UART header) (fixed in v0.2)
+
+## PCB Production
+PCBs have been produced by PCBWay (https://www.pcbway.com/), with following settings:
+- Size: 58x40 mm
+- Layers: 2
+- Soldermask (top, bottom): blue *(Note: green is possible too, PCBWay won't accept black because this requires minimal 0.22 mm soldermask distance between pins)*
+- Silkscreen (top, bottom): white
+- Material: FR4, TG 150-160
+- Thickness: 1.6 mm
+- Min track/spacing: 6/6 mil
+- Min hole size: 0.3 mm
+- Surface finish: HASL with lead *(Note: for production use HASL lead free or immersion gold (ENIG))*
+- Vias: tenting vias
+- Finished copper: 1 oz Cu
 
 ## Links
 - Article about v0.2: https://mcuoneclipse.com/2024/05/19/mcu-link-mr-v0-2-drone-and-robot-debug-probe-with-uart-2-usb-bridge/
