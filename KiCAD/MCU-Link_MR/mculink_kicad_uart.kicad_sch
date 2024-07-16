@@ -5372,7 +5372,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "652-CR0603-JW-104ELF"
+		(property "mouser#" "791-MR04X104JTL"
 			(at 67.31 120.65 0)
 			(effects
 				(font
@@ -5466,7 +5466,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "652-CR0603-JW-100ELF"
+		(property "mouser#" "667-ERJ-2GEJ100X "
 			(at 71.12 129.54 0)
 			(effects
 				(font
@@ -5560,7 +5560,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "652-CR0603-JW-100ELF"
+		(property "mouser#" "667-ERJ-2GEJ100X "
 			(at 69.85 173.99 0)
 			(effects
 				(font
