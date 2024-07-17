@@ -16,6 +16,11 @@ The first v0.1 version and the actual v0.2 version:
 PCB of the v0.2:
 
 ![v0.2 PCB](images/mcu-link-mr-v0.2.jpg)
+![v0.2 PCB](images/v0.2.jpg)
+![v0.2 side 1](images/v0.2_side1.jpg)
+![v0.2 side 2](images/v0.2_side2.jpg)
+![v0.2 side 3](images/v0.2_side3.jpg)
+![v0.2 side 4](images/v0.2_side4.jpg)
 
 PCB of the v0.3:
 
