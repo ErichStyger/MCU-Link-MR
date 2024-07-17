@@ -5,9 +5,9 @@ See https://mcuoneclipse.com/2024/05/05/cmsis-dap-debug-probe-for-robots-and-pix
 
 ## Features
 Renderings below show the v0.2 version.
-![top PCB](images/top.png)
-![bottom PCB](images/bottom.png)
-![bottom PCB](images/enclosure_v0.1.png)
+![top PCB](images/top_v0.2.png)
+![bottom PCB](images/bottom_v0.2.png)
+![enclosure](images/enclosure_v0.1.png)
 
 The first v0.1 version and the actual v0.2 version:
 
@@ -16,6 +16,12 @@ The first v0.1 version and the actual v0.2 version:
 PCB of the v0.2:
 
 ![v0.2 PCB](images/mcu-link-mr-v0.2.jpg)
+
+PCB of the v0.3:
+
+![v0.2 PCB](images/mcu-link-mr-v0.3.jpg)
+![top PCB](images/top_v0.3.png)
+![bottom PCB](images/bottom_v0.3.png)
 
 ## Versions
 The gerber files for the different releases can be found in KiCAD project directory.
@@ -52,5 +58,5 @@ PCBs have been produced by PCBWay (https://www.pcbway.com/), with following sett
 - Base hardware project used: https://mcuoneclipse.com/2024/02/06/versatile-oshw-mini-mcu-link-debug-probe-external-on-board-or-embedded/, GitHub: https://github.com/ErichStyger/McuLink-Mini
 - NXP MCU-Link: https://www.nxp.com/design/design-center/software/development-software/mcuxpresso-software-and-tools-/mcu-link-debug-probe:MCU-LINK
 - NXP LinkServer: https://www.nxp.com/design/design-center/software/development-software/mcuxpresso-software-and-tools-/linkserver-for-microcontrollers:LINKERSERVER
-- MCU-Link with Cortex-Debug and LinkServer
-LinkServer for Microcontrollers
+- MCU-Link with Cortex-Debug and LinkServer: https://mcuoneclipse.com/2023/11/27/mcu-link-with-cortex-debug-and-linkserver/
+- LinkServer for Microcontrollers: https://mcuoneclipse.com/2023/05/14/linkserver-for-microcontrollers/
