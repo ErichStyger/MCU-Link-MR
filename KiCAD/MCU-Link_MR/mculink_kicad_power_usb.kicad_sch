@@ -6563,7 +6563,7 @@
 			)
 		)
 		(property "Value" "100nF 6.3V"
-			(at 260.731 90.043 0)
+			(at 261.874 101.092 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6724,7 +6724,7 @@
 			)
 		)
 		(property "Value" "47pF 6.3V"
-			(at 249.301 90.043 0)
+			(at 250.19 99.314 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6885,7 +6885,7 @@
 			)
 		)
 		(property "Value" "22uF 6.3V"
-			(at 237.871 90.043 0)
+			(at 239.522 99.822 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6893,7 +6893,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 235.9152 92.71 0)
 			(effects
 				(font
@@ -6938,7 +6938,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "80-C0805C226K9PACTU"
+		(property "mouser#" "581-KGM15CR50J226MT"
 			(at 234.95 88.9 0)
 			(effects
 				(font
@@ -7046,7 +7046,7 @@
 			)
 		)
 		(property "Value" "22uF 6.3V"
-			(at 272.161 90.043 0)
+			(at 273.558 99.568 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7301,7 +7301,7 @@
 			)
 		)
 		(property "Value" "8pF 6.3V"
-			(at 231.521 53.213 0)
+			(at 233.172 61.214 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7453,7 +7453,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060364f64")
 		(property "Reference" "Y1"
-			(at 237.49 52.07 0)
+			(at 241.3 52.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7461,7 +7461,7 @@
 			)
 		)
 		(property "Value" "NX3225GB-16M-STD-CRA-2 "
-			(at 245.11 52.07 0)
+			(at 248.158 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7556,7 +7556,7 @@
 			)
 		)
 		(property "Value" "8pF 6.3V"
-			(at 256.921 53.213 0)
+			(at 259.08 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8227,7 +8227,7 @@
 			)
 		)
 		(property "Value" "100nF 6.3V"
-			(at 39.751 93.853 0)
+			(at 41.402 103.886 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8388,7 +8388,7 @@
 			)
 		)
 		(property "Value" "10uF 6.3V"
-			(at 27.051 93.853 0)
+			(at 28.956 103.378 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8549,7 +8549,7 @@
 			)
 		)
 		(property "Value" "100nF 6.3V"
-			(at 88.011 93.853 0)
+			(at 89.408 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8710,7 +8710,7 @@
 			)
 		)
 		(property "Value" "10uF 6.3V"
-			(at 100.711 93.853 0)
+			(at 102.108 103.124 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8936,7 +8936,7 @@
 			)
 		)
 		(property "Value" "4.7uF 6.3V"
-			(at 53.721 43.053 0)
+			(at 55.372 53.594 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9097,7 +9097,7 @@
 			)
 		)
 		(property "Value" "100nF 6.3V"
-			(at 65.151 43.053 0)
+			(at 66.548 53.594 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9258,7 +9258,7 @@
 			)
 		)
 		(property "Value" "100nF 6.3V"
-			(at 76.581 43.053 0)
+			(at 77.216 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9419,7 +9419,7 @@
 			)
 		)
 		(property "Value" "100nF 6.3V"
-			(at 88.011 43.053 0)
+			(at 89.408 53.594 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9580,7 +9580,7 @@
 			)
 		)
 		(property "Value" "100nF 6.3V"
-			(at 99.441 43.053 0)
+			(at 101.092 53.086 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9741,7 +9741,7 @@
 			)
 		)
 		(property "Value" "100nF 6.3V"
-			(at 110.871 43.053 0)
+			(at 112.268 53.594 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9902,7 +9902,7 @@
 			)
 		)
 		(property "Value" "10nF 6.3V"
-			(at 122.301 43.053 0)
+			(at 123.698 52.832 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10063,7 +10063,7 @@
 			)
 		)
 		(property "Value" "10nF 6.3V"
-			(at 132.461 43.053 0)
+			(at 133.858 51.816 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10224,7 +10224,7 @@
 			)
 		)
 		(property "Value" "10nF 6.3V"
-			(at 143.891 43.053 0)
+			(at 145.288 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10385,7 +10385,7 @@
 			)
 		)
 		(property "Value" "10nF 6.3V"
-			(at 155.321 43.053 0)
+			(at 156.718 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10705,7 +10705,7 @@
 			)
 		)
 		(property "Value" "100nF 6.3V"
-			(at 155.321 65.913 0)
+			(at 156.464 76.962 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10866,7 +10866,7 @@
 			)
 		)
 		(property "Value" "47pF 6.3V"
-			(at 166.751 65.913 0)
+			(at 168.402 77.216 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11027,7 +11027,7 @@
 			)
 		)
 		(property "Value" "100nF 6.3V"
-			(at 155.321 93.853 0)
+			(at 156.21 104.394 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11188,7 +11188,7 @@
 			)
 		)
 		(property "Value" "47pF 6.3V"
-			(at 166.751 93.853 0)
+			(at 167.64 103.632 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11349,7 +11349,7 @@
 			)
 		)
 		(property "Value" "22uF 6.3V"
-			(at 143.891 93.853 0)
+			(at 145.034 103.632 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11357,7 +11357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 141.9352 96.52 0)
 			(effects
 				(font
@@ -11402,7 +11402,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "80-C0805C226K9PACTU"
+		(property "mouser#" "581-KGM15CR50J226MT"
 			(at 140.97 92.71 0)
 			(effects
 				(font
@@ -12359,7 +12359,7 @@
 			)
 		)
 		(property "Value" "5.1k 5% 100mW"
-			(at 48.26 173.99 0)
+			(at 49.53 188.722 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12995,7 +12995,7 @@
 			)
 		)
 		(property "Value" "5.1k 5% 100mW"
-			(at 58.928 173.863 0)
+			(at 60.706 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
