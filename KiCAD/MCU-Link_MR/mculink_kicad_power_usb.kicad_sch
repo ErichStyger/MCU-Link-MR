@@ -7460,7 +7460,7 @@
 				)
 			)
 		)
-		(property "Value" "NX3225GB-16M-STD-CRA-2 "
+		(property "Value" "NX3225GB-16M-STD-CRA-2"
 			(at 248.158 41.656 0)
 			(effects
 				(font
@@ -7715,7 +7715,7 @@
 				)
 			)
 		)
-		(property "Value" "MPZ1608S331ATD25 "
+		(property "Value" "MPZ1608S331ATD25"
 			(at 104.14 133.3754 90)
 			(effects
 				(font
@@ -10544,7 +10544,7 @@
 				)
 			)
 		)
-		(property "Value" "MPZ1608S331ATD25 "
+		(property "Value" "MPZ1608S331ATD25"
 			(at 43.18 35.5854 90)
 			(effects
 				(font
@@ -11508,7 +11508,7 @@
 				)
 			)
 		)
-		(property "Value" "MPZ1608S331ATD25 "
+		(property "Value" "MPZ1608S331ATD25"
 			(at 128.27 86.3854 90)
 			(effects
 				(font

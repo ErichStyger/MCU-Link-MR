@@ -7069,7 +7069,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
+		(property "Footprint" "McuOnEclipse:VSSOP-8_2.3x2mm_P0.5mm"
 			(at 52.07 59.69 0)
 			(effects
 				(font
@@ -13214,7 +13214,7 @@
 				)
 			)
 		)
-		(property "Value" "MPZ1608S331ATD25 "
+		(property "Value" "MPZ1608S331ATD25"
 			(at 231.14 116.8654 90)
 			(effects
 				(font

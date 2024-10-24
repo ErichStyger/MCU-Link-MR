@@ -80,6 +80,7 @@
         "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -823,7 +824,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "v0.3",
+      "plot": "v0.4",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../../../../../../tmp/MCU-Link_MR.step",
@@ -834,6 +835,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",

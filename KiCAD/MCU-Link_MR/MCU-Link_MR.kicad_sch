@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "MCU-Link MR")
-		(date "2024-04-28")
-		(rev "v0.2")
+		(date "2024-10-24")
+		(rev "v0.4")
 		(company "Hochschule Luzern, Technik & Architektur")
 		(comment 1 "Erich Styger, erich.styger@hslu.ch")
 	)
@@ -846,10 +846,10 @@
 			"tXqmMBuGYRiGYaSe/wNXmNtkXlpbsAAAAABJRU5ErkJggg=="
 		)
 	)
-	(text_box "Open points:\n- Solder Jumper: different footprint?\n"
+	(text_box "Open points:\n- n/a\n"
 		(exclude_from_sim no)
 		(at 26.035 68.58 0)
-		(size 64.77 27.94)
+		(size 80.645 10.16)
 		(stroke
 			(width 0)
 			(type default)
@@ -865,10 +865,10 @@
 		)
 		(uuid "76ebb803-524a-4315-a167-906c0469ae8b")
 	)
-	(text_box "Changes v0.3:\n- added UART CTS/RTS to NavQPlus connector, including level shifter\n\nChanges v0.2:\n- improved silkscreen, marks for pin numbers on connectors\n- all UART connections through SN74LVC1T45GW buffers to prevent backfeeding\n- added VTARGET to tracking voltage\n"
+	(text_box "Changes v0.4:\n- changed R5 (resistor for CTS) from pull-up to pull-down, as signal is low active,\n  to cover the situation with no cable attached.\n\nChanges v0.3:\n- added UART CTS/RTS to NavQPlus connector, including level shifter\n\nChanges v0.2:\n- improved silkscreen, marks for pin numbers on connectors\n- all UART connections through SN74LVC1T45GW buffers to prevent backfeeding\n- added VTARGET to tracking voltage\n"
 		(exclude_from_sim no)
-		(at 26.035 105.41 0)
-		(size 81.915 23.495)
+		(at 25.4 80.01 0)
+		(size 81.915 29.21)
 		(stroke
 			(width 0)
 			(type default)
