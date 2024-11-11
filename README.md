@@ -24,15 +24,25 @@ PCB of the v0.2:
 
 PCB of the v0.3:
 
-![v0.2 PCB](images/mcu-link-mr-v0.3.jpg)
-![top PCB](images/top_v0.3.png)
-![bottom PCB](images/bottom_v0.3.png)
+![v0.3 PCB](images/mcu-link-mr-v0.3.jpg)
+![v0.3 top PCB](images/top_v0.3.png)
+![v0.3 bottom PCB](images/bottom_v0.3.png)
+
+PCB of the v0.4:
+
+![v0.4 PCB](images/mcu-link-mr-v0.4.jpg)
+![v0.4 top PCB](images/top_v0.4.png)
+![v0.6 bottom PCB](images/bottom_v0.4.png)
 
 ## Versions
 The gerber files for the different releases can be found in KiCAD project directory.
 
-### v0.3 (experimental)
+### v0.4
+- fixed pull-up on CTS line to pull-down
+
+### v0.3
 - Added RTS/CTS signals with level shifters for J11/NavQPlus connector
+- Issue: this PCB has pull-ups for the CTS line instead of pull-down. Fixed in v0.4
 
 ### v0.2
 - Improved footprints and silkscreen
