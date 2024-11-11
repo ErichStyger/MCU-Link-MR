@@ -4,6 +4,24 @@ Project for the NXP MCU-Link Debug Probe with KiCAD, as a debug drone for mobile
 See https://mcuoneclipse.com/2024/05/05/cmsis-dap-debug-probe-for-robots-and-pixhawk-with-kicad/
 
 ## Features
+The MCU-Link-MR is an open source debug probe, based on the original [NXP MCU-Link](https://www.nxp.com/design/design-center/software/development-software/mcuxpresso-software-and-tools-/mcu-link-debug-probe:MCU-LINK).
+
+The MCU-Link-MR supports debugging ARM-Cortex devices plus includes multiple headers used for robots and drone projects.
+
+- Binary firmware compatibility with the original MCU-Link debug probe
+- Size: 58x40 mm, dual-layer PCB
+- Laser-cut top-cover enclosure
+- USB-C host connector
+- Reset button for debug probe (LPC55S69) and target
+- [ARM target debug header (10pin 2x1.27 mm)](https://developer.arm.com/documentation/101416/0100/Hardware-Description/Target-Interfaces/Cortex-Debug--10-pin-) to debug any ARM Cortex target
+- Multiple robot and drone debug and UART connectors:
+    - [Pixhawk Debug Full debug header (10pin JST-SH)](https://docs.px4.io/main/en/debug/swd_debug.html#pixhawk-debug-full) with UART
+    - [Pixhawk Debug Mini debug header (6pin JST-SH)](https://docs.px4.io/main/en/debug/swd_debug.html#pixhawk-debug-mini) with UART
+    - [DCD-LZ Debug header (7pin JST-GHS)](https://docs.px4.io/main/en/debug/swd_debug.html#pixhawk-debug-mini) with UART
+    - [Target UART for NavQPlus Companion Computer (6pin JST-GH)](https://nxp.gitbook.io/navqplus/hardware/hardware-interfaces/uart/uart2-a53-debug), supporting flow control (CTS/RTS) (with board rev 0.4 or later)
+
+
+## PCB
 Renderings below show the v0.2 version.
 ![top PCB](images/top_v0.2.png)
 ![bottom PCB](images/bottom_v0.2.png)
