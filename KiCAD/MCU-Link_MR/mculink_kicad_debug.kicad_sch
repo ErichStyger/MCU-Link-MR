@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "MCU-Link MR")
-		(date "2024-04-28")
-		(rev "v0.2")
+		(date "2024-11-24")
+		(rev "v0.5")
 		(company "Hochschule Luzern, Technik & Architektur")
 		(comment 1 "Erich Styger, erich.styger@hslu.ch")
 	)
@@ -5534,6 +5534,18 @@
 		)
 		(uuid "fb234039-3df9-4bd1-bd16-93218267931e")
 	)
+	(rectangle
+		(start 173.99 99.06)
+		(end 284.48 163.83)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 87109ea4-ec62-46e5-b1c2-59b3eb2479de)
+	)
 	(image
 		(at 200.66 170.18)
 		(scale 0.534094)
@@ -6008,9 +6020,9 @@
 			"tXqmMBuGYRiGYaSe/wNXmNtkXlpbsAAAAABJRU5ErkJggg=="
 		)
 	)
-	(text "NOTE: connection \n1-2 in layout!"
+	(text "NOTE: connection \nJP2 1-2 in layout\nbecause of KiCad\nfootprint issue!"
 		(exclude_from_sim no)
-		(at 197.612 142.24 0)
+		(at 193.548 140.716 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6027,6 +6039,17 @@
 			)
 		)
 		(uuid "1214337e-e969-406c-99bb-0dff946c43f2")
+	)
+	(text "To disable tracking of reference voltage:\n- remove R16\n- cut JP2 connection between 1-2\n- solder JP2 to position 2-3"
+		(exclude_from_sim no)
+		(at 177.038 156.464 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a02bbd3-5200-46f7-8b0b-555f6340ef9d")
 	)
 	(text "PixHawk Mini"
 		(exclude_from_sim no)
@@ -6061,7 +6084,7 @@
 	)
 	(text "https://nxp.gitbook.io/hovergames/rddrone-fmuk66/connectors/debug-interface-dcd-lz"
 		(exclude_from_sim no)
-		(at 137.414 112.522 0)
+		(at 126.746 112.014 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6078,6 +6101,16 @@
 			)
 		)
 		(uuid "7da675cc-83b6-4abe-b82c-684df8a6ec97")
+	)
+	(text "Circuit tracks target reference voltage (VTARGET) and generates IF_VREF output voltage."
+		(exclude_from_sim no)
+		(at 217.932 101.092 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8e82f698-bddc-4e06-b1e6-33bed9481ee5")
 	)
 	(text "Debug Console: TX/RX is from PX4 point of view\nHolybro Pixhawk 6X RT: 115200 baud"
 		(exclude_from_sim no)
@@ -6132,9 +6165,9 @@
 		)
 		(uuid "ed1dee6b-8c4d-4836-8582-702299a37c82")
 	)
-	(text "Default: 1-2 closed, 2-3 open"
+	(text "Default: 1-2 closed,\n2-3 open"
 		(exclude_from_sim no)
-		(at 202.946 148.59 0)
+		(at 217.932 131.826 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12235,7 +12268,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000605842d1")
 		(property "Reference" "U6"
-			(at 232.41 133.35 0)
+			(at 234.95 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12356,7 +12389,7 @@
 			)
 		)
 		(property "Value" "10R 5% 100mW"
-			(at 220.98 142.24 90)
+			(at 218.186 142.494 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12515,7 +12548,7 @@
 			)
 		)
 		(property "Value" "100R 5% 100mW"
-			(at 252.73 148.59 90)
+			(at 249.428 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12695,7 +12728,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006059c15d")
 		(property "Reference" "C34"
-			(at 265.811 139.8016 0)
+			(at 258.826 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12704,7 +12737,7 @@
 			)
 		)
 		(property "Value" "100nF 6.3V"
-			(at 265.811 142.113 0)
+			(at 263.398 144.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12799,7 +12832,7 @@
 			)
 		)
 		(property "Value" "33k 5% 100mW"
-			(at 273.05 139.7 90)
+			(at 274.828 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13015,7 +13048,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000605a9dc7")
 		(property "Reference" "C32"
-			(at 246.761 122.0216 0)
+			(at 246.126 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13024,7 +13057,7 @@
 			)
 		)
 		(property "Value" "100nF 6.3V"
-			(at 246.761 124.333 0)
+			(at 240.792 126.238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13111,7 +13144,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000605aa6bc")
 		(property "Reference" "C33"
-			(at 256.921 122.0216 0)
+			(at 257.048 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13120,7 +13153,7 @@
 			)
 		)
 		(property "Value" "10uF 6.3V"
-			(at 256.921 124.333 0)
+			(at 254.508 126.492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13683,7 +13716,6 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "14d9ca14-8df0-4519-a7b2-a3bef79aefc6")
 		(property "Reference" "JP2"
 			(at 209.55 135.8901 90)
@@ -13695,7 +13727,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_3_Bridged12"
-			(at 209.55 133.3501 90)
+			(at 194.056 127.508 90)
 			(effects
 				(font
 					(size 1.27 1.27)

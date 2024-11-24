@@ -4746,7 +4746,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C23"
-			(at 1.974 -0.035 0)
+			(at 1.914 -0.015 0)
 			(layer "F.SilkS")
 			(uuid "828a1aaf-b835-4b1b-823e-96ecfc85fcd2")
 			(effects
@@ -9327,7 +9327,7 @@
 		(descr "SOT666")
 		(tags "SOT-666")
 		(property "Reference" "D3"
-			(at 0.025 1.525 180)
+			(at 0.02 -1.53 180)
 			(layer "F.SilkS")
 			(uuid "f66bd2a5-9270-4d31-96ac-4b1c7430c5cb")
 			(effects
@@ -20819,7 +20819,7 @@
 		(descr "SOT666")
 		(tags "SOT-666")
 		(property "Reference" "D2"
-			(at 0.058 -1.5 180)
+			(at -0.042 1.55 180)
 			(layer "F.SilkS")
 			(uuid "4bcea46f-bf55-41ca-ba99-a6b601972d2c")
 			(effects
@@ -23825,7 +23825,7 @@
 		(uuid "00000000-0000-0000-0000-00006078898e")
 		(at 174.4 89.8)
 		(property "Reference" "SW1"
-			(at 0.022 1.014 0)
+			(at -0.06 2.13 0)
 			(layer "F.SilkS")
 			(uuid "78a9b567-d1e2-48dc-95da-109034851c70")
 			(effects
@@ -28919,7 +28919,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R5"
-			(at -1.52 0 360)
+			(at -1.52 0 0)
 			(layer "F.SilkS")
 			(uuid "af05cd17-40d0-4394-9396-9e87008bf91d")
 			(effects
@@ -28931,7 +28931,7 @@
 			)
 		)
 		(property "Value" "100k 5% 100mW"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "aedd7af3-c37f-4ef2-87b3-e156cf91345a")
 			(effects
@@ -29125,7 +29125,7 @@
 			(uuid "bb830991-1eb1-47c4-8dc6-62f3d9ca70c0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "c9ca25d2-1487-48e0-9312-922592fcf4b8")
 			(effects
@@ -29487,7 +29487,7 @@
 		(uuid "a662c9d1-d082-4505-a56c-5c00da56ab23")
 		(at 203.95 81.8)
 		(property "Reference" "SW2"
-			(at 0.25 -0.25 0)
+			(at 1.39 2.14 0)
 			(layer "F.SilkS")
 			(uuid "42c1925a-d500-4e3a-a610-44f15524945a")
 			(effects
@@ -29664,12 +29664,12 @@
 		(uuid "b98a0c77-6352-40cc-b532-38b11563ff64")
 		(at 167.8 86.9)
 		(property "Reference" "SW3"
-			(at -0.025 0.075 0)
+			(at 3.26 0.02 90)
 			(layer "F.SilkS")
 			(uuid "bb014f03-8489-4745-bb92-0d8d8a00de2f")
 			(effects
 				(font
-					(size 0.9 0.6)
+					(size 0.8 0.4)
 					(thickness 0.1)
 					(bold yes)
 				)
@@ -31736,7 +31736,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "J4"
-			(at 2.15 0.85 0)
+			(at 2.31 0.01 0)
 			(layer "B.SilkS")
 			(uuid "a8d3eeb8-39b7-49a8-acf6-524884c7c127")
 			(effects
@@ -32037,7 +32037,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "J5"
-			(at -2.15 -0.9 180)
+			(at -2.25 -0.01 180)
 			(layer "B.SilkS")
 			(uuid "82af4cec-18fb-46e1-abe5-7b759219aefc")
 			(effects
@@ -33797,7 +33797,7 @@
 		(descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP2"
-			(at 2.83 -0.14 0)
+			(at 2.85 0.02 0)
 			(layer "B.SilkS")
 			(uuid "beba8def-96ec-4750-a6f5-6ab1a71ca654")
 			(effects
@@ -34330,7 +34330,7 @@
 		(layer "Edge.Cuts")
 		(uuid "be990e44-9727-4b48-9f55-f607684b8843")
 	)
-	(gr_text "Ref V tracking\nDefault:\n1-2 closed"
+	(gr_text "RefV tracking\nDefault:\n1-2 closed"
 		(at 205.8 85.575 0)
 		(layer "B.SilkS")
 		(uuid "0fe5967d-ed83-476e-8b93-8c655178da56")
@@ -34356,7 +34356,7 @@
 			(justify bottom mirror)
 		)
 	)
-	(gr_text "V0.4\n24-Oct-2024"
+	(gr_text "V0.5\n24-Nov-2024"
 		(at 193 117.2 0)
 		(layer "B.SilkS")
 		(uuid "d770f354-e06d-40cf-9049-df8086622f0c")
@@ -34500,7 +34500,7 @@
 		)
 	)
 	(gr_text "LPC ISP Mode"
-		(at 165.9 84.925 0)
+		(at 165.75 84.91 0)
 		(layer "F.SilkS")
 		(uuid "73f6c99b-c44a-43aa-b3f4-93090d41babb")
 		(effects
