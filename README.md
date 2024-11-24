@@ -17,7 +17,7 @@ The MCU-Link-MR supports debugging ARM-Cortex devices plus includes multiple hea
 - Multiple robot and drone debug and UART connectors:
     - [Pixhawk Debug Full debug header (10pin JST-SH)](https://docs.px4.io/main/en/debug/swd_debug.html#pixhawk-debug-full) with UART
     - [Pixhawk Debug Mini debug header (6pin JST-SH)](https://docs.px4.io/main/en/debug/swd_debug.html#pixhawk-debug-mini) with UART
-    - [DCD-LZ Debug header (7pin JST-GHS)](https://docs.px4.io/main/en/debug/swd_debug.html#pixhawk-debug-mini) with UART
+    - [DCD-LZ Debug header (7pin JST-GHS)](https://nxp.gitbook.io/hovergames/rddrone-fmuk66/connectors/debug-interface-dcd-lz) with UART
     - [Target UART for NavQPlus Companion Computer (6pin JST-GH)](https://nxp.gitbook.io/navqplus/hardware/hardware-interfaces/uart/uart2-a53-debug), supporting flow control (CTS/RTS) (with board rev 0.4 or later)
 
 
