@@ -846,7 +846,7 @@
 			"tXqmMBuGYRiGYaSe/wNXmNtkXlpbsAAAAABJRU5ErkJggg=="
 		)
 	)
-	(text_box "Open points:\n- reduce PCB size, using 0402 instead of 0604\n- Pixhawk full: header for GPIO1/GPIO2/GND for logic analyzer\n"
+	(text_box "Open points:\n- reduce PCB size, using 0402 instead of 0604\n- Pixhawk full: header for GPIO1/GPIO2/GND for logic analyzer\n- add NXP logo"
 		(exclude_from_sim no)
 		(at 26.035 68.58 0)
 		(size 80.645 10.16)

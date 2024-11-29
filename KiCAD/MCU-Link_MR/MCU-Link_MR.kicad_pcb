@@ -34525,8 +34525,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "SWD/JTAG"
-		(at 206.79 88.25 90)
+	(gr_text "Debug"
+		(at 206.47 87.62 90)
 		(layer "F.SilkS")
 		(uuid "7aed5f20-ec6f-4bc2-81fa-8808edb1b8de")
 		(effects
