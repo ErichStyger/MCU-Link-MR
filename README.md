@@ -3,6 +3,8 @@
 Project for the NXP MCU-Link Debug Probe with KiCAD, as a debug drone for mobile robotics platforms.
 See https://mcuoneclipse.com/2024/05/05/cmsis-dap-debug-probe-for-robots-and-pixhawk-with-kicad/
 
+You can order the v0.2 board as produced by NXP: https://www.nxp.com/design/design-center/software/development-software/mcuxpresso-software-and-tools-/mcu-link-mr-debug-probe-with-usb-c-serial-and-mobile-robotics-interfaces:MCU-LINK-MR
+
 ## Features
 The MCU-Link-MR is an open source debug probe, based on the original [NXP MCU-Link](https://www.nxp.com/design/design-center/software/development-software/mcuxpresso-software-and-tools-/mcu-link-debug-probe:MCU-LINK).
 
