@@ -5983,7 +5983,7 @@
 			"tXqmMBuGYRiGYaSe/wNXmNtkXlpbsAAAAABJRU5ErkJggg=="
 		)
 	)
-	(text "Tracking of reference voltage"
+	(text "Tracking of reference voltage,\nsupports target systems from 1.2V to 5V"
 		(exclude_from_sim no)
 		(at 242.57 158.75 0)
 		(effects
