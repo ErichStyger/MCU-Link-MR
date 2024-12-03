@@ -797,11 +797,11 @@
 				)
 			)
 		)
-		(symbol "Jumper:SolderJumper_3_Bridged12"
+		(symbol "Jumper:SolderJumper_3_Open"
 			(pin_names
 				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
+			(exclude_from_sim yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "JP"
 				(at -2.54 -2.54 0)
@@ -811,7 +811,7 @@
 					)
 				)
 			)
-			(property "Value" "SolderJumper_3_Bridged12"
+			(property "Value" "SolderJumper_3_Open"
 				(at 0 2.794 0)
 				(effects
 					(font
@@ -837,7 +837,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(property "Description" "Solder Jumper, 3-pole, open"
 				(at 0 0 0)
 				(effects
 					(font
@@ -855,7 +855,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SolderJumper*Bridged12*"
+			(property "ki_fp_filters" "SolderJumper*Open*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -864,18 +864,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SolderJumper_3_Bridged12_0_1"
-				(rectangle
-					(start -1.016 0.508)
-					(end -0.508 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
+			(symbol "SolderJumper_3_Open_0_1"
 				(arc
 					(start -1.016 1.016)
 					(mid -2.0276 0)
@@ -996,7 +985,7 @@
 					)
 				)
 			)
-			(symbol "SolderJumper_3_Bridged12_1_1"
+			(symbol "SolderJumper_3_Open_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -3841,12 +3830,6 @@
 		)
 	)
 	(junction
-		(at 261.62 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0241052c-f8a9-4979-b209-8f8e5f45e94e")
-	)
-	(junction
 		(at 88.9 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3883,16 +3866,16 @@
 		(uuid "28e551b0-e686-4756-90cd-96ba3bbd0529")
 	)
 	(junction
+		(at 203.2 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29527d2b-f658-486b-8496-3695d864a72c")
+	)
+	(junction
 		(at 64.77 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "312fa6d7-131a-4f1f-946d-a1b65ddd46ca")
-	)
-	(junction
-		(at 199.39 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3aad55b1-3774-425f-9c6b-31f9840905d4")
 	)
 	(junction
 		(at 63.5 20.32)
@@ -3919,10 +3902,10 @@
 		(uuid "47a81fbe-4593-47ee-8cff-cc312a4d7a62")
 	)
 	(junction
-		(at 203.2 134.62)
+		(at 54.61 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "53c59d94-d767-4ab8-a5c5-ac95b1170cc8")
+		(uuid "47c50b10-130c-4f2e-b8c5-f50cde47d5e4")
 	)
 	(junction
 		(at 240.03 119.38)
@@ -3994,7 +3977,7 @@
 		(at 207.01 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c895dddc-48e4-4d63-ade5-a411dc157159")
+		(uuid "bbe2599f-40f4-4718-84b7-e8e4f4c2d8c2")
 	)
 	(junction
 		(at 33.02 20.32)
@@ -4126,7 +4109,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 137.16) (xy 261.62 137.16)
+			(xy 256.54 137.16) (xy 262.89 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4143,16 +4126,6 @@
 			(type default)
 		)
 		(uuid "1469a7a2-6f4a-43fe-a30d-f383574fc7c3")
-	)
-	(wire
-		(pts
-			(xy 203.2 134.62) (xy 203.2 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15739764-b9ae-45ba-a821-b9be176ad99f")
 	)
 	(wire
 		(pts
@@ -4173,16 +4146,6 @@
 			(type default)
 		)
 		(uuid "1775a5e4-c625-4eac-a0bd-b9d604c0182c")
-	)
-	(wire
-		(pts
-			(xy 207.01 109.22) (xy 261.62 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1834f5ea-744e-4115-9c7b-af9ab9cbbc99")
 	)
 	(wire
 		(pts
@@ -4243,6 +4206,16 @@
 			(type default)
 		)
 		(uuid "210a39f2-5201-4c33-98ba-b7e9c33131cb")
+	)
+	(wire
+		(pts
+			(xy 207.01 134.62) (xy 203.2 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "234108cd-6029-4271-8e79-5960f02c7063")
 	)
 	(wire
 		(pts
@@ -4476,6 +4449,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 109.22) (xy 262.89 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4af70564-8a5a-41cc-99dd-e5b358f9fd2d")
+	)
+	(wire
+		(pts
 			(xy 257.81 156.21) (xy 227.33 156.21)
 		)
 		(stroke
@@ -4673,16 +4656,6 @@
 			(type default)
 		)
 		(uuid "6a736130-30e7-4e2b-a17a-5254c81b3445")
-	)
-	(wire
-		(pts
-			(xy 195.58 134.62) (xy 199.39 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c2b1a5c-095d-4df6-9d40-b0fa01e94ff4")
 	)
 	(wire
 		(pts
@@ -5016,16 +4989,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 139.7) (xy 207.01 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a79e3f70-50b1-49fb-a2e1-5baa7eaef07a")
-	)
-	(wire
-		(pts
 			(xy 39.37 125.73) (xy 39.37 124.46)
 		)
 		(stroke
@@ -5226,7 +5189,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 134.62) (xy 203.2 134.62)
+			(xy 195.58 134.62) (xy 203.2 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5326,6 +5289,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 139.7) (xy 207.01 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc8ede92-d035-4be5-9278-0d08b6bf90f8")
+	)
+	(wire
+		(pts
 			(xy 227.33 45.72) (xy 213.36 45.72)
 		)
 		(stroke
@@ -5356,6 +5329,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 109.22) (xy 262.89 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2186bb5-eb1f-4339-b689-ac3b67fd7e37")
+	)
+	(wire
+		(pts
 			(xy 118.11 86.36) (xy 127 86.36)
 		)
 		(stroke
@@ -5366,16 +5349,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 109.22) (xy 261.62 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e32d0a8c-3906-4ef3-a2b1-daccdf290ae0")
-	)
-	(wire
-		(pts
 			(xy 234.95 119.38) (xy 240.03 119.38)
 		)
 		(stroke
@@ -5383,16 +5356,6 @@
 			(type default)
 		)
 		(uuid "e3831f4a-097d-4f07-b35c-0b3eef04aa22")
-	)
-	(wire
-		(pts
-			(xy 261.62 137.16) (xy 256.54 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e749513a-87ba-41e8-a549-4b6fb2ad96d5")
 	)
 	(wire
 		(pts
@@ -6020,16 +5983,6 @@
 			"tXqmMBuGYRiGYaSe/wNXmNtkXlpbsAAAAABJRU5ErkJggg=="
 		)
 	)
-	(text "NOTE: connection \nJP2 1-2 in layout\nbecause of KiCad\nfootprint issue!"
-		(exclude_from_sim no)
-		(at 193.548 140.716 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0c72da07-be3d-4126-9e79-1a11f7a9f7ae")
-	)
 	(text "Tracking of reference voltage"
 		(exclude_from_sim no)
 		(at 242.57 158.75 0)
@@ -6167,11 +6120,12 @@
 	)
 	(text "Default: 1-2 closed,\n2-3 open"
 		(exclude_from_sim no)
-		(at 217.932 131.826 0)
+		(at 204.47 131.064 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
 		(uuid "f1323237-9294-40c2-9811-949a4777db39")
 	)
@@ -6901,71 +6855,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 199.39 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060466549")
-		(property "Reference" "#FLG0101"
-			(at 199.39 132.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 199.39 130.2258 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 199.39 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0902cd4b-fd0b-484d-8af0-b7318ac1daae")
-		)
-		(instances
-			(project "MCU-Link_MR"
-				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cff19"
-					(reference "#FLG0101")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -13708,88 +13597,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_3_Bridged12")
-		(at 207.01 134.62 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "14d9ca14-8df0-4519-a7b2-a3bef79aefc6")
-		(property "Reference" "JP2"
-			(at 209.55 135.8901 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SolderJumper_3_Bridged12"
-			(at 194.056 127.508 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "McuOnEclipse:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 207.01 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 207.01 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-			(at 207.01 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey#" ""
-			(at 207.01 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "7244175a-48bb-4fa8-b6ea-e7091dcbae2b")
-		)
-		(pin "2"
-			(uuid "88ed5600-8aae-4202-bec3-f7aabb8c562b")
-		)
-		(pin "1"
-			(uuid "ab22c72c-d6d3-4399-937e-6450abea75c1")
-		)
-		(instances
-			(project "MCU-Link_MR"
-				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cff19"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 143.51 102.87 0)
 		(unit 1)
@@ -14230,6 +14037,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 54.61 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ec36102-8c48-4ba9-b9a6-f4bbbddd900f")
+		(property "Reference" "#FLG06"
+			(at 54.61 18.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 54.61 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 54.61 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad723b9b-39de-4bf3-9b61-b3ee46f2a045")
+		)
+		(instances
+			(project "MCU-Link_MR"
+				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cff19"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 127 130.81 0)
 		(unit 1)
@@ -14634,6 +14507,79 @@
 			(project "MCU-Link_MR"
 				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cff19"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 207.01 134.62 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f01f7b42-8151-44f4-b18d-2bd39f7cbd0c")
+		(property "Reference" "JP2"
+			(at 208.534 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper"
+			(at 192.786 137.414 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels"
+			(at 207.01 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 207.01 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "34ee85b2-8bef-4345-bd34-936ab45d95cf")
+		)
+		(pin "2"
+			(uuid "bc57cc9e-6fac-4656-8bc5-85fd7ddf9298")
+		)
+		(pin "1"
+			(uuid "093beb3c-f06c-42c2-8a6c-20a76167cc2e")
+		)
+		(instances
+			(project ""
+				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cff19"
+					(reference "JP2")
 					(unit 1)
 				)
 			)

@@ -2535,25 +2535,25 @@
 		)
 	)
 	(junction
-		(at 138.43 57.15)
+		(at 125.73 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5537db8c-5d49-47c1-86b7-f50bed9ab745")
 	)
 	(junction
-		(at 156.21 52.07)
+		(at 143.51 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d085c72-b945-41eb-9fb2-73ce781437d5")
 	)
 	(junction
-		(at 148.59 87.63)
+		(at 143.51 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76a288dd-653a-4036-b7f7-a75baff40076")
 	)
 	(junction
-		(at 129.54 92.71)
+		(at 124.46 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3b4ad54-8927-4443-99da-540099d1513d")
@@ -2638,7 +2638,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 92.71) (xy 129.54 100.33)
+			(xy 124.46 81.28) (xy 124.46 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2668,7 +2668,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 92.71) (xy 148.59 87.63)
+			(xy 143.51 81.28) (xy 143.51 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2678,7 +2678,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 60.96) (xy 156.21 64.77)
+			(xy 143.51 55.88) (xy 143.51 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2768,7 +2768,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 87.63) (xy 129.54 87.63)
+			(xy 125.73 76.2) (xy 124.46 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2778,7 +2778,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 52.07) (xy 138.43 57.15)
+			(xy 125.73 46.99) (xy 125.73 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2798,7 +2798,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 57.15) (xy 138.43 63.5)
+			(xy 125.73 52.07) (xy 125.73 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2888,7 +2888,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 87.63) (xy 129.54 92.71)
+			(xy 124.46 76.2) (xy 124.46 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2898,7 +2898,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 52.07) (xy 158.75 52.07)
+			(xy 143.51 46.99) (xy 146.05 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2908,7 +2908,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 92.71) (xy 129.54 92.71)
+			(xy 125.73 81.28) (xy 124.46 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2928,7 +2928,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 99.06) (xy 148.59 96.52)
+			(xy 143.51 87.63) (xy 143.51 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2978,7 +2978,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 87.63) (xy 148.59 87.63)
+			(xy 147.32 76.2) (xy 143.51 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2998,13 +2998,25 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 52.07) (xy 156.21 57.15)
+			(xy 143.51 46.99) (xy 143.51 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fae05f02-6294-44b9-bcdc-b6b26e40923a")
+	)
+	(rectangle
+		(start 111.76 106.68)
+		(end 252.73 156.21)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a6738c69-95aa-4571-9d16-3f24f941c4e9)
 	)
 	(image
 		(at 200.66 170.18)
@@ -3482,7 +3494,7 @@
 	)
 	(text "Open: Boot from internal FLASH\nClosed: Enable ISP mode (USB or UART)"
 		(exclude_from_sim no)
-		(at 143.002 38.862 0)
+		(at 130.302 33.782 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3504,7 +3516,7 @@
 	)
 	(text "Enable ISP mode"
 		(exclude_from_sim no)
-		(at 167.386 42.164 0)
+		(at 154.686 37.084 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3536,7 +3548,7 @@
 	)
 	(text "Feature set supported"
 		(exclude_from_sim no)
-		(at 161.29 114.3 0)
+		(at 135.636 110.998 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3567,6 +3579,17 @@
 		)
 		(uuid "b426b0b4-5ead-46b2-a75f-ebf97c8bbdc2")
 	)
+	(text "LPC55S69 reset"
+		(exclude_from_sim no)
+		(at 161.29 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b888c991-dcbf-438f-bd2d-2c9c9d773d8b")
+	)
 	(text "HW_VER_6: VCOM disabled when low"
 		(exclude_from_sim no)
 		(at 151.13 146.05 0)
@@ -3577,6 +3600,17 @@
 			(justify right bottom)
 		)
 		(uuid "d6232763-7804-4e9d-bed2-6d55774012bd")
+	)
+	(text "Enter ISP mode"
+		(exclude_from_sim no)
+		(at 162.56 52.832 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f83006cb-164f-4276-97e9-4384d5a70969")
 	)
 	(text "LED: SWD activity"
 		(exclude_from_sim no)
@@ -3811,7 +3845,7 @@
 	)
 	(global_label "PIO0_5-ISP_EN-LED1_CTRL"
 		(shape bidirectional)
-		(at 158.75 52.07 0)
+		(at 146.05 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3820,7 +3854,7 @@
 		)
 		(uuid "5fbfeac0-d06d-440a-aeac-469d82eba99a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.75 52.07 0)
+			(at 146.05 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3891,7 +3925,7 @@
 	)
 	(global_label "LPC_RST"
 		(shape output)
-		(at 152.4 87.63 0)
+		(at 147.32 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3900,7 +3934,7 @@
 		)
 		(uuid "730ac3db-bb59-4b8d-8bdd-7319dc8591f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.4 87.63 0)
+			(at 147.32 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5339,7 +5373,7 @@
 	)
 	(symbol
 		(lib_id "mculink_kicad:KMR221GLFS")
-		(at 139.7 92.71 0)
+		(at 134.62 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5347,7 +5381,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060487e0d")
 		(property "Reference" "SW1"
-			(at 139.7 80.01 0)
+			(at 134.62 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5355,7 +5389,7 @@
 			)
 		)
 		(property "Value" "KMR221GLFS"
-			(at 139.7 82.55 0)
+			(at 134.62 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5363,7 +5397,7 @@
 			)
 		)
 		(property "Footprint" "McuOnEclipse:SW_C_K_KMR2"
-			(at 134.62 101.6 0)
+			(at 129.54 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5372,7 +5406,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 101.6 0)
+			(at 129.54 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5381,7 +5415,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 92.71 0)
+			(at 134.62 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5390,7 +5424,7 @@
 			)
 		)
 		(property "distrelec#" ""
-			(at 139.7 92.71 0)
+			(at 134.62 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5399,7 +5433,7 @@
 			)
 		)
 		(property "mouser#" "611-KMR221G-LFS "
-			(at 139.7 92.71 0)
+			(at 134.62 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5408,7 +5442,7 @@
 			)
 		)
 		(property "digikey#" ""
-			(at 139.7 92.71 0)
+			(at 134.62 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5442,7 +5476,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.54 100.33 0)
+		(at 124.46 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5450,7 +5484,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060489315")
 		(property "Reference" "#PWR040"
-			(at 129.54 106.68 0)
+			(at 124.46 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5459,7 +5493,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.667 104.7242 0)
+			(at 124.587 93.2942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5467,7 +5501,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 100.33 0)
+			(at 124.46 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5476,7 +5510,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 100.33 0)
+			(at 124.46 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5485,7 +5519,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 100.33 0)
+			(at 124.46 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5507,7 +5541,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 148.59 99.06 0)
+		(at 143.51 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5515,7 +5549,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006048df32")
 		(property "Reference" "#PWR041"
-			(at 148.59 105.41 0)
+			(at 143.51 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5524,7 +5558,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.717 103.4542 0)
+			(at 143.637 92.0242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5532,7 +5566,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 99.06 0)
+			(at 143.51 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5541,7 +5575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 99.06 0)
+			(at 143.51 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5550,7 +5584,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 99.06 0)
+			(at 143.51 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5572,7 +5606,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 64.77 0)
+		(at 143.51 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5580,7 +5614,7 @@
 		(dnp no)
 		(uuid "65f27209-b2be-4e1d-a92a-1167a2056ad4")
 		(property "Reference" "#PWR097"
-			(at 156.21 71.12 0)
+			(at 143.51 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5589,7 +5623,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.337 69.1642 0)
+			(at 143.637 64.0842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5597,7 +5631,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 64.77 0)
+			(at 143.51 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5606,7 +5640,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 64.77 0)
+			(at 143.51 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5615,7 +5649,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 64.77 0)
+			(at 143.51 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5637,7 +5671,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 63.5 0)
+		(at 125.73 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5645,7 +5679,7 @@
 		(dnp no)
 		(uuid "6950996c-ef71-4324-8ae1-3dc93c154e3a")
 		(property "Reference" "#PWR039"
-			(at 138.43 69.85 0)
+			(at 125.73 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5654,7 +5688,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.557 67.8942 0)
+			(at 125.857 62.8142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5662,7 +5696,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 63.5 0)
+			(at 125.73 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5671,7 +5705,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 63.5 0)
+			(at 125.73 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5680,7 +5714,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 63.5 0)
+			(at 125.73 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5702,7 +5736,7 @@
 	)
 	(symbol
 		(lib_id "mculink_kicad:KMR221GLFS")
-		(at 147.32 57.15 0)
+		(at 134.62 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5710,7 +5744,7 @@
 		(dnp no)
 		(uuid "b22ef14a-d2ba-43f4-a859-3bccf537afd9")
 		(property "Reference" "SW3"
-			(at 147.32 44.45 0)
+			(at 134.62 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5718,7 +5752,7 @@
 			)
 		)
 		(property "Value" "KMR221GLFS"
-			(at 147.32 46.99 0)
+			(at 134.62 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5726,7 +5760,7 @@
 			)
 		)
 		(property "Footprint" "McuOnEclipse:SW_C_K_KMR2"
-			(at 142.24 66.04 0)
+			(at 129.54 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5735,7 +5769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 66.04 0)
+			(at 129.54 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5744,7 +5778,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 57.15 0)
+			(at 134.62 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5753,7 +5787,7 @@
 			)
 		)
 		(property "distrelec#" ""
-			(at 147.32 57.15 0)
+			(at 134.62 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5762,7 +5796,7 @@
 			)
 		)
 		(property "mouser#" "611-KMR221G-LFS "
-			(at 147.32 57.15 0)
+			(at 134.62 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5771,7 +5805,7 @@
 			)
 		)
 		(property "digikey#" ""
-			(at 147.32 57.15 0)
+			(at 134.62 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
