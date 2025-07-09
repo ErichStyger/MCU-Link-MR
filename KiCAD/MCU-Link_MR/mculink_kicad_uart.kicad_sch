@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "1a2054b2-21e4-446a-a5a6-1076e189bfcc")
 	(paper "A4")
 	(title_block
@@ -14,7 +14,9 @@
 	(lib_symbols
 		(symbol "Connector_Generic_MountingPin:Conn_01x06_MountingPin"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -82,41 +84,19 @@
 			)
 			(symbol "Conn_01x06_MountingPin_1_1"
 				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
+					(start -1.27 5.207)
+					(end 0 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -137,8 +117,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -148,14 +128,36 @@
 					)
 				)
 				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -8.89)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
@@ -305,9 +307,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -380,7 +385,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -392,7 +397,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -441,9 +446,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -562,10 +570,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Power_Protection:PESD5V0L5UV"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -641,7 +654,7 @@
 			(symbol "PESD5V0L5UV_0_1"
 				(polyline
 					(pts
-						(xy -1.016 0) (xy 1.016 0)
+						(xy -1.016 1.016) (xy -1.016 -1.016) (xy -0.508 -1.016)
 					)
 					(stroke
 						(width 0)
@@ -653,7 +666,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.016 1.016) (xy -1.016 -1.016) (xy -0.508 -1.016)
+						(xy -1.016 0) (xy 1.016 0)
 					)
 					(stroke
 						(width 0)
@@ -794,6 +807,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "mculink_kicad:SN74LVC1T45GW"
 			(exclude_from_sim no)
@@ -887,7 +901,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0) (xy 2.794 -1.016) (xy 1.016 -1.016)
+						(xy -0.762 0) (xy -0.762 2.032) (xy 1.016 1.016) (xy -0.762 0)
 					)
 					(stroke
 						(width 0)
@@ -900,18 +914,6 @@
 				(polyline
 					(pts
 						(xy -0.762 -1.016) (xy -2.54 -1.016) (xy -2.54 0) (xy -4.572 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 0) (xy -0.762 2.032) (xy 1.016 1.016) (xy -0.762 0)
 					)
 					(stroke
 						(width 0)
@@ -945,8 +947,56 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 2.794 0) (xy 2.794 -1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
 			(symbol "SN74LVC1T45GW_1_1"
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "DIR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at -2.54 10.16 270)
 					(length 2.54)
@@ -983,17 +1033,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -10.16 0 0)
+				(pin power_in line
+					(at 2.54 10.16 270)
 					(length 2.54)
-					(name "A"
+					(name "VCCB"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1019,49 +1069,18 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "DIR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 10.16 270)
-					(length 2.54)
-					(name "VCCB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1133,7 +1152,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1145,7 +1164,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1176,12 +1195,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1272,7 +1296,29 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "UART Interface to Target (NavQPlus)"
+		(exclude_from_sim no)
+		(at 167.64 21.59 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify right bottom)
+		)
+		(uuid "5dcca6b7-ca57-4b63-bc95-c9c17766c0de")
+	)
+	(text "UART to NXP NavQPlus:\nhttps://nxp.gitbook.io/navqplus/hardware/hardware-interfaces/uart/uart2-a53-debug\n1: 5V: not connected\n2: TXD: TX from target to debug probe\n3: RXD: RX from debug probe to target\n4: CTS: CTS from target to debug probe\n5: RTS: RTS from debug probe to target\n6: GND"
+		(exclude_from_sim no)
+		(at 141.986 34.544 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5f10ccee-e8cc-46d1-9a08-0bcd89edd2ec")
 	)
 	(junction
 		(at 115.57 55.88)
@@ -2579,29 +2625,26 @@
 			"HV3v49GcgBwA/SjK3UpzkWQ6KZ6n4b9Jg+j3Yz+Vn6tM4fPaOfQegOJ9cBBzNhqGETPmADDShvdA"
 			"baO4kGpDIoOHF14zF0WOSunGHYHcwciozkqKbYLWo5pObxGQw0TADKMaOtFC2Lt/D0flA6PQfTvX"
 			"5z1h790civpuK/zb7l/DMAzDMAzMAWA0Jx0UIyzD6UKpeH7sQsbBcLLIS28YRjyMxj+TJ+y9m0dR"
-			"tXqmMBuGYRiGYaSe/wNXmNtkXlpbsAAAAABJRU5ErkJggg=="
+			"tXqmMBuGYRiGYaSe/wNXmNtkXlpbsAAAAABJRU5ErkJggjYDgAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAJciiNcANwOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlSKO1wA4A4AAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAACbIozXADkDgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJkigtcAOgOAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAnyKA1wA7A4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACdIobXADwD"
+			"gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIMihNcAPQOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"gSKa1wA+A4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACHIpjXAD8DgAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAIUintcAQAOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiyKc1wBBA4AAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAACJIpLXAEIDgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI8ikNcAQwOAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAjSKW1wBEA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACzIpTX"
+			"AEUDgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALEiqtcARgOAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAtyKo1wBHA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC1Iq7XAEgDgAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAALsirNcASQOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuSKi1wBKA4AAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAC/IqDXAEsDgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL0iptcATAOA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoyKk1wBNA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACh"
+			"IrrXAE4DgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKciuNcATwOAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAApSK+1wBQA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACrIrzXAFEDgAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAKkistcAUgOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAryKw1wBTA4AAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAACtIrbXAFQDgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANMitNcA"
+			"VQOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0SLK1wBWAw=="
 		)
-	)
-	(text "UART Interface to Target (NavQPlus)"
-		(exclude_from_sim no)
-		(at 167.64 21.59 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify right bottom)
-		)
-		(uuid "5dcca6b7-ca57-4b63-bc95-c9c17766c0de")
-	)
-	(text "UART to NXP NavQPlus:\nhttps://nxp.gitbook.io/navqplus/hardware/hardware-interfaces/uart/uart2-a53-debug\n1: 5V: not connected\n2: TXD: TX from target to debug probe\n3: RXD: RX from debug probe to target\n4: CTS: CTS from target to debug probe\n5: RTS: RTS from debug probe to target\n6: GND"
-		(exclude_from_sim no)
-		(at 141.986 34.544 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5f10ccee-e8cc-46d1-9a08-0bcd89edd2ec")
 	)
 	(global_label "FC0_TARGET_CTS"
 		(shape output)
