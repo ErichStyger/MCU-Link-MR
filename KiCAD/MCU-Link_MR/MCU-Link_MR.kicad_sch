@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "MCU-Link MR")
-		(date "2024-10-24")
-		(rev "v0.4")
+		(date "2025-10-29")
+		(rev "v0.5")
 		(company "Hochschule Luzern, Technik & Architektur")
 		(comment 1 "Erich Styger, erich.styger@hslu.ch")
 	)
@@ -97,7 +97,7 @@
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
 				(at 0 5.08 0)
@@ -282,6 +282,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MountingHole_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_1_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -384,7 +467,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Open:\n- add isolation jumpers for RTS and CTS\n- JP1 is still in eBOM?\n\nChanges v0.5 (not released yet):\n- changed Resistor and Capacitor size from 0603 to 0402\n- removed all designators on silkscreen\n- moved components to left side to fit additional header for Pixhawk GPIO\n- added NXP logo on the back\n- added 3 pin 2.54mm Pixhawk header for logic analyzer access\n\nChanges v0.4:\n- changed R5 (resistor for CTS) from pull-up to pull-down, as signal is low active,\n  to cover the situation with no cable attached.\n\nChanges v0.3:\n- added UART CTS/RTS to NavQPlus connector, including level shifter\n\nChanges v0.2:\n- improved silkscreen, marks for pin numbers on connectors\n- all UART connections through SN74LVC1T45GW buffers to prevent backfeeding\n- added VTARGET to tracking voltage\n"
+	(text_box "Open:\n- n/a\n\nChanges v0.5:\n- added isolation jumpers for RTS and CTS\n- changed Resistor and Capacitor size from 0603 to 0402\n- removed all designators on silkscreen\n- moved components to left side to fit additional header for Pixhawk GPIO\n- added NXP logo on the back\n- added 3 pin 2.54mm Pixhawk header for logic analyzer access\n\nChanges v0.4:\n- changed R5 (resistor for CTS) from pull-up to pull-down, as signal is low active,\n  to cover the situation with no cable attached.\n\nChanges v0.3:\n- added UART CTS/RTS to NavQPlus connector, including level shifter\n\nChanges v0.2:\n- improved silkscreen, marks for pin numbers on connectors\n- all UART connections through SN74LVC1T45GW buffers to prevent backfeeding\n- added VTARGET to tracking voltage\n"
 		(exclude_from_sim no)
 		(at 26.67 80.01 0)
 		(size 93.98 55.88)
@@ -1493,6 +1576,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 209.55 121.92 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "00403411-8674-4b6b-8348-7b3a6a7f35ec")
+		(property "Reference" "L7"
+			(at 212.09 120.7516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Logo NXP"
+			(at 207.264 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "McuOnEclipse:Logo_NXP"
+			(at 209.55 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 209.55 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
+			(at 209.55 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" ""
+			(at 209.55 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "MCU-Link_MR"
+				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527"
+					(reference "L7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:Fiducial")
 		(at 187.96 88.9 0)
 		(unit 1)
@@ -1657,8 +1821,9 @@
 		)
 	)
 	(symbol
+		(lib_name "MountingHole_1")
 		(lib_id "Mechanical:MountingHole")
-		(at 189.23 119.38 0)
+		(at 189.23 121.92 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -1666,7 +1831,7 @@
 		(dnp no)
 		(uuid "90a39b50-9ca5-43d6-9500-a3b28b58cf4c")
 		(property "Reference" "L6"
-			(at 191.77 118.2116 0)
+			(at 191.77 120.7516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1675,7 +1840,7 @@
 			)
 		)
 		(property "Value" "Logo HSLU"
-			(at 191.77 120.523 0)
+			(at 186.182 125.984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1684,7 +1849,7 @@
 			)
 		)
 		(property "Footprint" "McuOnEclipse:Hochschule_Luzern_New"
-			(at 189.23 119.38 0)
+			(at 189.23 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1693,7 +1858,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 119.38 0)
+			(at 189.23 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1701,8 +1866,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 189.23 119.38 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 189.23 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1711,7 +1876,7 @@
 			)
 		)
 		(property "distrelec#" ""
-			(at 189.23 119.38 0)
+			(at 189.23 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1720,7 +1885,7 @@
 			)
 		)
 		(property "digikey#" ""
-			(at 189.23 119.38 0)
+			(at 189.23 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)

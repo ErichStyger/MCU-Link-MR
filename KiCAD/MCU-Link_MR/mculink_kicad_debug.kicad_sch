@@ -14998,7 +14998,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d83b96ac-dbe8-4750-9f50-1ede8609f86e")
@@ -15020,7 +15020,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "McuOnEclipse:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels"
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm_NumberLabels"
 			(at 207.01 134.62 0)
 			(effects
 				(font

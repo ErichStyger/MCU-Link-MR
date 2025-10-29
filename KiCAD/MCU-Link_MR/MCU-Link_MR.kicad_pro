@@ -58,48 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|195850000|85100000|60ee74e1-693f-460a-ace1-9b55ca18f5f6|cc99f36b-7e8e-4b99-95b8-6ff40b0e8917",
-          ""
-        ],
-        [
-          "clearance|196400000|84600000|b13f1132-5129-42c3-bec0-4feb884d3970|cc99f36b-7e8e-4b99-95b8-6ff40b0e8917",
-          ""
-        ],
-        [
-          "missing_courtyard|194400000|111200000|f4b9fb64-7a9b-467f-848d-7be53e135475|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "solder_mask_bridge|195850000|85100000|cc99f36b-7e8e-4b99-95b8-6ff40b0e8917|60ee74e1-693f-460a-ace1-9b55ca18f5f6",
-          ""
-        ],
-        [
-          "solder_mask_bridge|196400000|84600000|cc99f36b-7e8e-4b99-95b8-6ff40b0e8917|b13f1132-5129-42c3-bec0-4feb884d3970",
-          ""
-        ],
-        [
-          "starved_thermal|173850000|101711000|00000000-0000-0000-0000-0000608baf86|1d188a07-7ba0-4939-b7c6-7061a7b13522|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|178800000|105366000|00000000-0000-0000-0000-0000608baf86|635e8612-b510-418d-9e60-ce65fde35b4a|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|197050000|100000000|00000000-0000-0000-0000-0000608baf86|060733df-d332-48fd-8bd4-19156dc7161e|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|200000000|85475000|00000000-0000-0000-0000-0000608baf86|6bda843e-bb20-481b-88f9-b6058f734af7|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|212490000|87780000|00000000-0000-0000-0000-0000608baf86|a3776382-e5b1-4d6a-b906-535de41207a5|F.Cu",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -912,7 +871,7 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
         {
           "group_by": false,
@@ -1062,6 +1021,12 @@
           "group_by": false,
           "label": "digikey#",
           "name": "digikey#",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
           "show": false
         }
       ],
