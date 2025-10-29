@@ -8856,7 +8856,7 @@
 			)
 		)
 		(property "Value" "10R 5% 100mW"
-			(at 69.85 33.02 90)
+			(at 74.422 32.766 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8908,7 +8908,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "652-CR0603-JW-100ELF"
+		(property "mouser#" "667-ERJ-2GEJ100X "
 			(at 69.85 35.56 0)
 			(effects
 				(font
@@ -9002,7 +9002,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "652-CR0603-JW-100ELF"
+		(property "mouser#" "667-ERJ-2GEJ100X "
 			(at 81.28 40.64 0)
 			(effects
 				(font
@@ -9044,7 +9044,7 @@
 			)
 		)
 		(property "Value" "100k 5% 100mW"
-			(at 67.31 72.39 90)
+			(at 75.184 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9096,7 +9096,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "652-CR0603-JW-104ELF"
+		(property "mouser#" "791-MR04X104JTL"
 			(at 64.77 72.39 0)
 			(effects
 				(font
@@ -9354,7 +9354,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000604cdf1a")
 		(property "Reference" "C30"
-			(at 44.45 60.9092 90)
+			(at 37.846 62.738 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9362,7 +9362,7 @@
 			)
 		)
 		(property "Value" "100nF 6.3V"
-			(at 44.45 63.2206 90)
+			(at 37.084 65.278 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9905,7 +9905,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "652-CR0603-JW-104ELF"
+		(property "mouser#" "791-MR04X104JTL"
 			(at 64.77 110.49 0)
 			(effects
 				(font
@@ -10069,7 +10069,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000604eac98")
 		(property "Reference" "C35"
-			(at 44.45 99.0092 90)
+			(at 37.338 102.616 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10077,7 +10077,7 @@
 			)
 		)
 		(property "Value" "100nF 6.3V"
-			(at 44.45 101.3206 90)
+			(at 36.068 104.394 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10620,7 +10620,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "652-CR0603-JW-104ELF"
+		(property "mouser#" "791-MR04X104JTL"
 			(at 64.77 148.59 0)
 			(effects
 				(font
@@ -10654,7 +10654,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000604fc822")
 		(property "Reference" "R21"
-			(at 36.83 167.64 90)
+			(at 34.544 168.402 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10662,7 +10662,7 @@
 			)
 		)
 		(property "Value" "2k 5% 100mW"
-			(at 41.91 167.64 90)
+			(at 31.496 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10878,7 +10878,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000604fc834")
 		(property "Reference" "C37"
-			(at 44.45 137.1092 90)
+			(at 38.608 139.446 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10886,7 +10886,7 @@
 			)
 		)
 		(property "Value" "100nF 6.3V"
-			(at 44.45 139.4206 90)
+			(at 37.592 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11321,7 +11321,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "652-CR0603-JW-100ELF"
+		(property "mouser#" "667-ERJ-2GEJ100X "
 			(at 68.58 81.28 0)
 			(effects
 				(font
@@ -11415,7 +11415,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "652-CR0603-JW-100ELF"
+		(property "mouser#" "667-ERJ-2GEJ100X "
 			(at 68.58 157.48 0)
 			(effects
 				(font
@@ -11523,7 +11523,7 @@
 			)
 		)
 		(property "Value" "100nF 6.3V"
-			(at 66.421 25.273 0)
+			(at 57.15 26.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11619,7 +11619,7 @@
 			)
 		)
 		(property "Value" "10uF 6.3V"
-			(at 77.851 25.273 0)
+			(at 80.01 25.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12157,7 +12157,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060565125")
 		(property "Reference" "R23"
-			(at 91.44 184.15 90)
+			(at 82.804 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12165,7 +12165,7 @@
 			)
 		)
 		(property "Value" "2k 5% 100mW"
-			(at 86.36 184.15 90)
+			(at 79.756 186.182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12251,7 +12251,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000605656ec")
 		(property "Reference" "R22"
-			(at 91.44 173.99 90)
+			(at 83.82 171.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12259,7 +12259,7 @@
 			)
 		)
 		(property "Value" "2k 5% 100mW"
-			(at 86.36 173.99 90)
+			(at 80.264 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12745,7 +12745,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "652-CR0603-JW-100ELF"
+		(property "mouser#" "667-ERJ-2GEJ100X "
 			(at 220.98 139.7 0)
 			(effects
 				(font
