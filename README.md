@@ -57,8 +57,21 @@ PCB of the v0.4:
 ![v0.4 top PCB](images/top_v0.4.png)
 ![v0.6 bottom PCB](images/bottom_v0.4.png)
 
+PCB of the v0.5:
+
+![v0.4 top PCB](images/top_v0.5.png)
+![v0.6 bottom PCB](images/bottom_v0.5.png)
+
 ## Versions
 The gerber files for the different releases can be found in KiCAD project directory.
+
+### v0.5
+- Upgraded to KiCad v9.0
+- added isolation solder-jumpers for RTS and CTS
+- changed Resistor and Capacitor size from 0603 to 0402
+- removed all designators on silkscreen
+- added 3 pin 2.54mm Pixhawk header for logic analyzer access
+- added NXP logo on the back
 
 ### v0.4
 - fixed pull-up on CTS line to pull-down
