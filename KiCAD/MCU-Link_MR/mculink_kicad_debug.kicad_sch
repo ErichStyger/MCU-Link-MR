@@ -1445,8 +1445,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J1"
-				(at -2.032 10.922 0)
+			(property "Reference" "J8"
+				(at 7.62 1.9051 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1454,8 +1454,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "DCD-LZ_Debug"
-				(at 8.128 -6.35 90)
+			(property "Value" "JST-GH SM07B-GHS"
+				(at 7.62 -0.6349 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1463,7 +1463,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "McuOnEclipse:JST_GH_SM07B-GHS-TB_1x07-1MP_P1.25mm_Horizontal"
 				(at -6.35 -2.54 0)
 				(effects
 					(font
@@ -1483,6 +1483,33 @@
 			)
 			(property "Description" ""
 				(at -7.112 -18.796 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "distrelec#" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFR#" "SM07B-GHS-TB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "digikey#" "455-1569-1-ND"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1676,8 +1703,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -0.762 14.732 0)
+			(property "Reference" "J1"
+				(at 9.398 0.762 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1685,8 +1712,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Pixhawk_Debug_Full"
-				(at 9.144 -10.16 90)
+			(property "Value" "JST-SH SM10B-SRSS"
+				(at 9.398 -2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1694,8 +1721,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at -5.08 1.27 0)
+			(property "Footprint" "McuOnEclipse:JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1704,7 +1731,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at -5.08 -16.51 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1712,8 +1739,35 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at -5.842 -14.986 0)
+			(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "distrelec#" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFR#" "SM10B-SRSS-TB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "digikey#" "455-SM10B-SRSS-TBCT-ND"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1961,8 +2015,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J1"
-				(at -2.032 10.922 0)
+			(property "Reference" "J2"
+				(at 7.62 1.9051 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1970,8 +2024,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Pixhawk_Debug_Mini"
-				(at 8.128 -8.89 90)
+			(property "Value" "JST-SH BM06B-SRSS"
+				(at 7.62 -0.6349 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1979,7 +2033,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "McuOnEclipse:JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical"
 				(at -6.35 -2.54 0)
 				(effects
 					(font
@@ -1999,6 +2053,33 @@
 			)
 			(property "Description" ""
 				(at -7.112 -18.796 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "distrelec#" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFR#" "BM06B-SRSS-TB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "digikey#" "455-BM06B-GHS-TBTCT-ND"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -14071,7 +14152,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b1e2cd8-d994-4d81-9ae7-1274d8c4db49")
 		(property "Reference" "J8"
-			(at 146.05 121.2849 0)
+			(at 146.05 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14080,7 +14161,7 @@
 			)
 		)
 		(property "Value" "JST-GH SM07B-GHS"
-			(at 146.05 123.8249 0)
+			(at 146.05 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)

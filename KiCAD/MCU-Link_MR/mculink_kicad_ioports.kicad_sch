@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "MCU-Link MR")
-		(date "2024-04-28")
-		(rev "v0.2")
+		(date "2025-10-29")
+		(rev "v0.5")
 		(company "Hochschule Luzern, Technik & Architektur")
 		(comment 1 "Erich Styger, erich.styger@hslu.ch")
 	)
@@ -58,6 +58,15 @@
 				)
 			)
 			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5264,6 +5273,15 @@
 			)
 		)
 		(property "digikey#" ""
+			(at 232.41 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 232.41 139.7 0)
 			(effects
 				(font
