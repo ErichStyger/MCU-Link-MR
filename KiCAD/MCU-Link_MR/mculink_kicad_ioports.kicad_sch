@@ -4752,7 +4752,7 @@
 				)
 			)
 		)
-		(property "Value" "0R 5% 100mW"
+		(property "Value" "0R 1% 63mW"
 			(at 77.47 47.8536 90)
 			(effects
 				(font
@@ -4805,7 +4805,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "652-CR0603AJ/-000EAS"
+		(property "mouser#" "71-CRCW04020000Z0EDC"
 			(at 77.47 50.8 0)
 			(effects
 				(font
@@ -5323,7 +5323,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k 5% 100mW"
+		(property "Value" "2k 1% 63mW"
 			(at 234.188 130.683 0)
 			(effects
 				(font

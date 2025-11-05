@@ -6752,7 +6752,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 6.3V"
+		(property "Value" "100nF 25V"
 			(at 261.874 101.092 90)
 			(effects
 				(font
@@ -6806,7 +6806,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "80-C0603C104K9R"
+		(property "mouser#" "963-MLAST105SB5104KF"
 			(at 257.81 88.9 0)
 			(effects
 				(font
@@ -6913,7 +6913,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47pF 6.3V"
+		(property "Value" "47pF 50V"
 			(at 250.19 99.314 90)
 			(effects
 				(font
@@ -6967,7 +6967,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "80-C0603C470M5HACTU"
+		(property "mouser#" "77-VJ0402A470FXACBC"
 			(at 246.38 88.9 0)
 			(effects
 				(font
@@ -7074,7 +7074,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF 6.3V"
+		(property "Value" "22uF 10V"
 			(at 239.522 99.822 90)
 			(effects
 				(font
@@ -7128,7 +7128,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "581-KGM15CR50J226MT"
+		(property "mouser#" "81-GRM158R61A226ME5D"
 			(at 234.95 88.9 0)
 			(effects
 				(font
@@ -7235,7 +7235,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF 6.3V"
+		(property "Value" "22uF 10V"
 			(at 273.558 99.568 90)
 			(effects
 				(font
@@ -7289,7 +7289,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "581-KGM15CR50J226MT"
+		(property "mouser#" "81-GRM158R61A226ME5D"
 			(at 269.24 88.9 0)
 			(effects
 				(font
@@ -7490,7 +7490,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8pF 6.3V"
+		(property "Value" "8pF 50V"
 			(at 233.172 61.214 90)
 			(effects
 				(font
@@ -7544,7 +7544,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "810-C1608C0G1H080D"
+		(property "mouser#" "81-GJM1555C1H8R0DB1D"
 			(at 228.6 52.07 0)
 			(effects
 				(font
@@ -7745,7 +7745,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8pF 6.3V"
+		(property "Value" "8pF 50V"
 			(at 259.08 60.96 90)
 			(effects
 				(font
@@ -7799,7 +7799,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "810-C1608C0G1H080D"
+		(property "mouser#" "81-GJM1555C1H8R0DB1D"
 			(at 254 52.07 0)
 			(effects
 				(font
@@ -8000,7 +8000,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF 6.3V"
+		(property "Value" "10nF 25V"
 			(at 101.981 140.843 0)
 			(effects
 				(font
@@ -8054,7 +8054,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "80-C0603C103M5R"
+		(property "mouser#" "81-GXT155R71E103KE1D"
 			(at 99.06 139.7 0)
 			(effects
 				(font
@@ -8160,7 +8160,7 @@
 				)
 			)
 		)
-		(property "Value" "10k 5% 100mW"
+		(property "Value" "10k 1% 63mW"
 			(at 116.84 111.3536 90)
 			(effects
 				(font
@@ -8213,7 +8213,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "667-ERJ-3GEYJ103V"
+		(property "mouser#" "71-CRCW040210K0FKEDC"
 			(at 116.84 114.3 0)
 			(effects
 				(font
@@ -8255,7 +8255,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "20k 5% 100mW"
+		(property "Value" "20k 5% 63mW"
 			(at 124.968 123.063 0)
 			(effects
 				(font
@@ -8309,7 +8309,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "652-CR0603JW-203ELF"
+		(property "mouser#" "71-CRCW040220K0JNEDC"
 			(at 123.19 121.92 0)
 			(effects
 				(font
@@ -8416,7 +8416,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 6.3V"
+		(property "Value" "100nF 25V"
 			(at 41.402 103.886 90)
 			(effects
 				(font
@@ -8470,7 +8470,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "80-C0603C104K9R"
+		(property "mouser#" "963-MLAST105SB5104KF"
 			(at 36.83 92.71 0)
 			(effects
 				(font
@@ -8577,7 +8577,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF 6.3V"
+		(property "Value" "10uF 10V"
 			(at 28.956 103.378 90)
 			(effects
 				(font
@@ -8622,7 +8622,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "581-06036D106MAT2A"
+		(property "mouser#" "81-GRT155R61A16ME13J"
 			(at 24.13 92.71 0)
 			(effects
 				(font
@@ -8738,7 +8738,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 6.3V"
+		(property "Value" "100nF 25V"
 			(at 89.408 105.41 90)
 			(effects
 				(font
@@ -8792,7 +8792,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "80-C0603C104K9R"
+		(property "mouser#" "963-MLAST105SB5104KF"
 			(at 85.09 92.71 0)
 			(effects
 				(font
@@ -8899,7 +8899,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF 6.3V"
+		(property "Value" "10uF 10V"
 			(at 102.108 103.124 90)
 			(effects
 				(font
@@ -8944,7 +8944,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "581-06036D106MAT2A"
+		(property "mouser#" "81-GRT155R61A16ME13J"
 			(at 97.79 92.71 0)
 			(effects
 				(font
@@ -9125,7 +9125,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF 6.3V"
+		(property "Value" "4.7uF 25V"
 			(at 55.372 53.594 90)
 			(effects
 				(font
@@ -9170,7 +9170,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "581-06033D475KAT2A"
+		(property "mouser#" "581-CM05X5R475M25AH"
 			(at 50.8 41.91 0)
 			(effects
 				(font
@@ -9286,7 +9286,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 6.3V"
+		(property "Value" "100nF 25V"
 			(at 66.548 53.594 90)
 			(effects
 				(font
@@ -9340,7 +9340,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "80-C0603C104K9R"
+		(property "mouser#" "963-MLAST105SB5104KF"
 			(at 62.23 41.91 0)
 			(effects
 				(font
@@ -9447,7 +9447,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 6.3V"
+		(property "Value" "100nF 25V"
 			(at 77.216 53.34 90)
 			(effects
 				(font
@@ -9501,7 +9501,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "80-C0603C104K9R"
+		(property "mouser#" "963-MLAST105SB5104KF"
 			(at 73.66 41.91 0)
 			(effects
 				(font
@@ -9608,7 +9608,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 6.3V"
+		(property "Value" "100nF 25V"
 			(at 89.408 53.594 90)
 			(effects
 				(font
@@ -9662,7 +9662,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "80-C0603C104K9R"
+		(property "mouser#" "963-MLAST105SB5104KF"
 			(at 85.09 41.91 0)
 			(effects
 				(font
@@ -9769,7 +9769,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 6.3V"
+		(property "Value" "100nF 25V"
 			(at 101.092 53.086 90)
 			(effects
 				(font
@@ -9823,7 +9823,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "80-C0603C104K9R"
+		(property "mouser#" "963-MLAST105SB5104KF"
 			(at 96.52 41.91 0)
 			(effects
 				(font
@@ -9930,7 +9930,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 6.3V"
+		(property "Value" "100nF 25V"
 			(at 112.268 53.594 90)
 			(effects
 				(font
@@ -9984,7 +9984,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "80-C0603C104K9R"
+		(property "mouser#" "963-MLAST105SB5104KF"
 			(at 107.95 41.91 0)
 			(effects
 				(font
@@ -10091,7 +10091,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF 6.3V"
+		(property "Value" "10nF 25V"
 			(at 123.698 52.832 90)
 			(effects
 				(font
@@ -10145,7 +10145,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "80-C0603C103M5R"
+		(property "mouser#" "81-GXT155R71E103KE1D"
 			(at 119.38 41.91 0)
 			(effects
 				(font
@@ -10252,7 +10252,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF 6.3V"
+		(property "Value" "10nF 25V"
 			(at 133.858 51.816 90)
 			(effects
 				(font
@@ -10306,7 +10306,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "80-C0603C103M5R"
+		(property "mouser#" "81-GXT155R71E103KE1D"
 			(at 129.54 41.91 0)
 			(effects
 				(font
@@ -10413,7 +10413,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF 6.3V"
+		(property "Value" "10nF 25V"
 			(at 145.288 52.07 90)
 			(effects
 				(font
@@ -10467,7 +10467,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "80-C0603C103M5R"
+		(property "mouser#" "81-GXT155R71E103KE1D"
 			(at 140.97 41.91 0)
 			(effects
 				(font
@@ -10574,7 +10574,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF 6.3V"
+		(property "Value" "10nF 25V"
 			(at 156.718 52.07 90)
 			(effects
 				(font
@@ -10628,7 +10628,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "80-C0603C103M5R"
+		(property "mouser#" "81-GXT155R71E103KE1D"
 			(at 152.4 41.91 0)
 			(effects
 				(font
@@ -10894,7 +10894,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 6.3V"
+		(property "Value" "100nF 25V"
 			(at 156.464 76.962 90)
 			(effects
 				(font
@@ -10948,7 +10948,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "80-C0603C104K9R"
+		(property "mouser#" "963-MLAST105SB5104KF"
 			(at 152.4 64.77 0)
 			(effects
 				(font
@@ -11055,7 +11055,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47pF 6.3V"
+		(property "Value" "47pF 50V"
 			(at 168.402 77.216 90)
 			(effects
 				(font
@@ -11109,7 +11109,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "80-C0603C470M5HACTU"
+		(property "mouser#" "77-VJ0402A470FXACBC"
 			(at 163.83 64.77 0)
 			(effects
 				(font
@@ -11216,7 +11216,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 6.3V"
+		(property "Value" "100nF 25V"
 			(at 156.21 104.394 90)
 			(effects
 				(font
@@ -11270,7 +11270,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "80-C0603C104K9R"
+		(property "mouser#" "963-MLAST105SB5104KF"
 			(at 152.4 92.71 0)
 			(effects
 				(font
@@ -11377,7 +11377,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47pF 6.3V"
+		(property "Value" "47pF 50V"
 			(at 167.64 103.632 90)
 			(effects
 				(font
@@ -11431,7 +11431,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "80-C0603C470M5HACTU"
+		(property "mouser#" "77-VJ0402A470FXACBC"
 			(at 163.83 92.71 0)
 			(effects
 				(font
@@ -11538,7 +11538,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF 6.3V"
+		(property "Value" "22uF 10V"
 			(at 145.034 103.632 90)
 			(effects
 				(font
@@ -11592,7 +11592,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "581-KGM15CR50J226MT"
+		(property "mouser#" "81-GRM158R61A226ME5D"
 			(at 140.97 92.71 0)
 			(effects
 				(font
@@ -12548,7 +12548,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5.1k 5% 100mW"
+		(property "Value" "5.1k 5% 63mW"
 			(at 49.53 188.722 90)
 			(effects
 				(font
@@ -12602,7 +12602,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "652-CR0603JW-512ELF"
+		(property "mouser#" "71-CRCW04025K10JNEDC"
 			(at 53.34 172.72 0)
 			(effects
 				(font
@@ -13184,7 +13184,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5.1k 5% 100mW"
+		(property "Value" "5.1k 5% 63mW"
 			(at 60.706 189.23 90)
 			(effects
 				(font
@@ -13238,7 +13238,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "652-CR0603JW-512ELF"
+		(property "mouser#" "71-CRCW04025K10JNEDC"
 			(at 57.15 172.72 0)
 			(effects
 				(font
