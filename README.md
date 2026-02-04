@@ -32,10 +32,12 @@ Renderings below show the v0.2 version.
 ![bottom PCB](images/bottom_v0.2.png)
 ![enclosure](images/enclosure_v0.1.png)
 
-The first v0.1 version and the actual v0.2 version:
+### v0.1
+The first v0.1 version and the v0.2 version:
 
 ![v0.1 and v0.2](images/mcu-link-mr-v0.1-v0.2.jpg)
 
+### v0.2
 PCB of the v0.2:
 
 ![v0.2 PCB](images/mcu-link-mr-v0.2.jpg)
@@ -45,22 +47,25 @@ PCB of the v0.2:
 ![v0.2 side 3](images/v0.2_side3.jpg)
 ![v0.2 side 4](images/v0.2_side4.jpg)
 
+### v0.3
 PCB of the v0.3:
 
 ![v0.3 PCB](images/mcu-link-mr-v0.3.jpg)
 ![v0.3 top PCB](images/top_v0.3.png)
 ![v0.3 bottom PCB](images/bottom_v0.3.png)
 
+### v0.4
 PCB of the v0.4:
 
 ![v0.4 PCB](images/mcu-link-mr-v0.4.jpg)
 ![v0.4 top PCB](images/top_v0.4.png)
-![v0.6 bottom PCB](images/bottom_v0.4.png)
+![v0.4 bottom PCB](images/bottom_v0.4.png)
 
 PCB of the v0.5:
 
-![v0.4 top PCB](images/top_v0.5.png)
-![v0.6 bottom PCB](images/bottom_v0.5.png)
+![v0.45 top PCB](images/top_v0.5.png)
+![v0.5 bottom PCB](images/bottom_v0.5.png)
+![v0.5 PCB](images/mcu-link-mr-v05.jpg)
 
 ## Versions
 The gerber files for the different releases can be found in KiCAD project directory.
@@ -72,6 +77,7 @@ The gerber files for the different releases can be found in KiCAD project direct
 - removed all designators on silkscreen
 - added 3 pin 2.54mm Pixhawk header for logic analyzer access
 - added NXP logo on the back
+- see https://mcuoneclipse.com/2025/12/29/mcu-link-mr-v0-5-enhanced-debug-probe-for-arm-cortex-m/
 
 ### v0.4
 - fixed pull-up on CTS line to pull-down
