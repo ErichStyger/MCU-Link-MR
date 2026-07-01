@@ -2849,8 +2849,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at -5.08 -8.89 0)
+			(property "Reference" "SW2"
+				(at 0 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2858,14 +2858,14 @@
 				)
 			)
 			(property "Value" "KMR221GLFS"
-				(at 0 -6.35 0)
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "McuOnEclipse:SW_C_K_KMR2"
 				(at -5.08 -8.89 0)
 				(effects
 					(font
@@ -2884,6 +2884,33 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "distrelec#" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "mouser#" "611-KMR221G-LFS "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "digikey#" ""
 				(at 0 0 0)
 				(effects
 					(font
